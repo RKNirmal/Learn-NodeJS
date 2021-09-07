@@ -1,0 +1,1375 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Untitled Document.md</title><style>@charset "UTF-8";@import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0-alpha2/katex.min.css';code{color:#c7254e;background-color:#f9f2f4;border-radius:4px}code,kbd{padding:2px 4px}kbd{color:#fff;background-color:#333;border-radius:3px;box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)}kbd kbd{padding:0;font-size:100%;box-shadow:none}pre{display:block;margin:0 0 10px;word-break:break-all;word-wrap:break-word;color:#333;background-color:#f5f5f5;border:1px solid #ccc;border-radius:4px}pre code{padding:0;font-size:inherit;color:inherit;white-space:pre-wrap;background-color:transparent;border-radius:0}.pre-scrollable{max-height:340px;overflow-y:scroll}table{background-color:transparent}th{text-align:left}.table{width:100%;max-width:100%;margin-bottom:20px}.table>thead>tr>th{padding:8px;line-height:1.4285714;border-top:1px solid #ddd}.table>thead>tr>td,.table>tbody>tr>th,.table>tbody>tr>td,.table>tfoot>tr>th,.table>tfoot>tr>td{padding:8px;line-height:1.4285714;vertical-align:top;border-top:1px solid #ddd}.table>thead>tr>th{vertical-align:bottom;border-bottom:2px solid #ddd}.table>caption+thead>tr:first-child>th,.table>caption+thead>tr:first-child>td,.table>colgroup+thead>tr:first-child>th,.table>colgroup+thead>tr:first-child>td,.table>thead:first-child>tr:first-child>th,.table>thead:first-child>tr:first-child>td{border-top:0}.table>tbody+tbody{border-top:2px solid #ddd}.table .table{background-color:#fff}.table-condensed>thead>tr>th,.table-condensed>thead>tr>td,.table-condensed>tbody>tr>th,.table-condensed>tbody>tr>td,.table-condensed>tfoot>tr>th,.table-condensed>tfoot>tr>td{padding:5px}.table-bordered,.table-bordered>thead>tr>th,.table-bordered>thead>tr>td,.table-bordered>tbody>tr>th,.table-bordered>tbody>tr>td,.table-bordered>tfoot>tr>th,.table-bordered>tfoot>tr>td{border:1px solid #ddd}.table-bordered>thead>tr>th,.table-bordered>thead>tr>td{border-bottom-width:2px}.table-striped>tbody>tr:nth-child(odd)>td,.table-striped>tbody>tr:nth-child(odd)>th{background-color:#f9f9f9}.table-hover>tbody>tr:hover>td,.table-hover>tbody>tr:hover>th{background-color:#f5f5f5}table col[class*="col-"]{position:static;float:none;display:table-column}table td[class*="col-"],table th[class*="col-"]{position:static;float:none;display:table-cell}.table>thead>tr>td.active,.table>thead>tr>th.active,.table>thead>tr.active>td,.table>thead>tr.active>th,.table>tbody>tr>td.active,.table>tbody>tr>th.active,.table>tbody>tr.active>td,.table>tbody>tr.active>th,.table>tfoot>tr>td.active,.table>tfoot>tr>th.active,.table>tfoot>tr.active>td,.table>tfoot>tr.active>th{background-color:#f5f5f5}.table-hover>tbody>tr>td.active:hover,.table-hover>tbody>tr>th.active:hover,.table-hover>tbody>tr.active:hover>td,.table-hover>tbody>tr:hover>.active,.table-hover>tbody>tr.active:hover>th{background-color:#e8e8e8}.table>thead>tr>td.success,.table>thead>tr>th.success,.table>thead>tr.success>td,.table>thead>tr.success>th,.table>tbody>tr>td.success,.table>tbody>tr>th.success,.table>tbody>tr.success>td,.table>tbody>tr.success>th,.table>tfoot>tr>td.success,.table>tfoot>tr>th.success,.table>tfoot>tr.success>td,.table>tfoot>tr.success>th{background-color:#dff0d8}.table-hover>tbody>tr>td.success:hover,.table-hover>tbody>tr>th.success:hover,.table-hover>tbody>tr.success:hover>td,.table-hover>tbody>tr:hover>.success,.table-hover>tbody>tr.success:hover>th{background-color:#d0e9c6}.table>thead>tr>td.info,.table>thead>tr>th.info,.table>thead>tr.info>td,.table>thead>tr.info>th,.table>tbody>tr>td.info,.table>tbody>tr>th.info,.table>tbody>tr.info>td,.table>tbody>tr.info>th,.table>tfoot>tr>td.info,.table>tfoot>tr>th.info,.table>tfoot>tr.info>td,.table>tfoot>tr.info>th{background-color:#d9edf7}.table-hover>tbody>tr>td.info:hover,.table-hover>tbody>tr>th.info:hover,.table-hover>tbody>tr.info:hover>td,.table-hover>tbody>tr:hover>.info,.table-hover>tbody>tr.info:hover>th{background-color:#c4e3f3}.table>thead>tr>td.warning,.table>thead>tr>th.warning,.table>thead>tr.warning>td,.table>thead>tr.warning>th,.table>tbody>tr>td.warning,.table>tbody>tr>th.warning,.table>tbody>tr.warning>td,.table>tbody>tr.warning>th,.table>tfoot>tr>td.warning,.table>tfoot>tr>th.warning,.table>tfoot>tr.warning>td,.table>tfoot>tr.warning>th{background-color:#fcf8e3}.table-hover>tbody>tr>td.warning:hover,.table-hover>tbody>tr>th.warning:hover,.table-hover>tbody>tr.warning:hover>td,.table-hover>tbody>tr:hover>.warning,.table-hover>tbody>tr.warning:hover>th{background-color:#faf2cc}.table>thead>tr>td.danger,.table>thead>tr>th.danger,.table>thead>tr.danger>td,.table>thead>tr.danger>th,.table>tbody>tr>td.danger,.table>tbody>tr>th.danger,.table>tbody>tr.danger>td,.table>tbody>tr.danger>th,.table>tfoot>tr>td.danger,.table>tfoot>tr>th.danger,.table>tfoot>tr.danger>td,.table>tfoot>tr.danger>th{background-color:#f2dede}.table-hover>tbody>tr>td.danger:hover,.table-hover>tbody>tr>th.danger:hover,.table-hover>tbody>tr.danger:hover>td,.table-hover>tbody>tr:hover>.danger,.table-hover>tbody>tr.danger:hover>th{background-color:#ebcccc}fieldset{border:0;min-width:0}legend{display:block;width:100%;margin-bottom:20px;font-size:21px;line-height:inherit;color:#333;border-bottom:1px solid #e5e5e5}label{display:inline-block;max-width:100%;margin-bottom:5px;font-weight:700}input[type="radio"],input[type="checkbox"]{margin:4px 0 0;margin-top:1px \9;line-height:normal}input[type="file"]{display:block}input[type="range"]{display:block;width:100%}select[multiple],select[size]{height:auto}input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}output{padding-top:7px}output,.form-control{display:block;font-size:14px;line-height:1.4285714;color:#555}.form-control{width:100%;height:34px;padding:6px 12px;background-color:#fff;background-image:none;border:1px solid #ccc;border-radius:4px;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s}.form-control:focus{border-color:#66afe9;outline:0;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)}.form-control::-moz-placeholder{color:#777;opacity:1}.form-control:-ms-input-placeholder{color:#777}.form-control::-webkit-input-placeholder{color:#777}.form-control[disabled],.form-control[readonly],fieldset[disabled] .form-control{cursor:not-allowed;background-color:#eee;opacity:1}textarea.form-control{height:auto}input[type="date"],input[type="time"],input[type="datetime-local"],input[type="month"]{line-height:34px;line-height:1.4285714 \0}input[type="date"].input-sm,.form-horizontal .form-group-sm input.form-control[type="date"],.input-group-sm>input.form-control[type="date"],.input-group-sm>input.input-group-addon[type="date"],.input-group-sm>.input-group-btn>input.btn[type="date"],input[type="time"].input-sm,.form-horizontal .form-group-sm input.form-control[type="time"],.input-group-sm>input.form-control[type="time"],.input-group-sm>input.input-group-addon[type="time"],.input-group-sm>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-sm,.form-horizontal .form-group-sm input.form-control[type="datetime-local"],.input-group-sm>input.form-control[type="datetime-local"],.input-group-sm>input.input-group-addon[type="datetime-local"],.input-group-sm>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-sm,.form-horizontal .form-group-sm input.form-control[type="month"],.input-group-sm>input.form-control[type="month"],.input-group-sm>input.input-group-addon[type="month"],.input-group-sm>.input-group-btn>input.btn[type="month"]{line-height:30px}input[type="date"].input-lg,.form-horizontal .form-group-lg input.form-control[type="date"],.input-group-lg>input.form-control[type="date"],.input-group-lg>input.input-group-addon[type="date"],.input-group-lg>.input-group-btn>input.btn[type="date"],input[type="time"].input-lg,.form-horizontal .form-group-lg input.form-control[type="time"],.input-group-lg>input.form-control[type="time"],.input-group-lg>input.input-group-addon[type="time"],.input-group-lg>.input-group-btn>input.btn[type="time"],input[type="datetime-local"].input-lg,.form-horizontal .form-group-lg input.form-control[type="datetime-local"],.input-group-lg>input.form-control[type="datetime-local"],.input-group-lg>input.input-group-addon[type="datetime-local"],.input-group-lg>.input-group-btn>input.btn[type="datetime-local"],input[type="month"].input-lg,.form-horizontal .form-group-lg input.form-control[type="month"],.input-group-lg>input.form-control[type="month"],.input-group-lg>input.input-group-addon[type="month"],.input-group-lg>.input-group-btn>input.btn[type="month"]{line-height:46px}.form-group{margin-bottom:15px}.radio,.checkbox{position:relative;display:block;min-height:20px;margin-top:10px;margin-bottom:10px}.radio label,.checkbox label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer}.radio input[type="radio"],.radio-inline input[type="radio"],.checkbox input[type="checkbox"],.checkbox-inline input[type="checkbox"]{position:absolute;margin-left:-20px;margin-top:4px \9}.radio+.radio,.checkbox+.checkbox{margin-top:-5px}.radio-inline,.checkbox-inline{display:inline-block;padding-left:20px;margin-bottom:0;vertical-align:middle;font-weight:400;cursor:pointer}.radio-inline+.radio-inline,.checkbox-inline+.checkbox-inline{margin-top:0;margin-left:10px}input[type="radio"][disabled],input[type="radio"].disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"].disabled,fieldset[disabled] input[type="checkbox"],.radio-inline.disabled,fieldset[disabled] .radio-inline,.checkbox-inline.disabled,fieldset[disabled] .checkbox-inline,.radio.disabled label,fieldset[disabled] .radio label,.checkbox.disabled label,fieldset[disabled] .checkbox label{cursor:not-allowed}.form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}.form-control-static.input-lg,.form-horizontal .form-group-lg .form-control-static.form-control,.input-group-lg>.form-control-static.form-control,.input-group-lg>.form-control-static.input-group-addon,.input-group-lg>.input-group-btn>.form-control-static.btn,.form-control-static.input-sm,.form-horizontal .form-group-sm .form-control-static.form-control,.input-group-sm>.form-control-static.form-control,.input-group-sm>.form-control-static.input-group-addon,.input-group-sm>.input-group-btn>.form-control-static.btn{padding-left:0;padding-right:0}.input-sm,.form-horizontal .form-group-sm .form-control,.input-group-sm>.form-control{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}.input-group-sm>.input-group-addon{height:30px;line-height:1.5}.input-group-sm>.input-group-btn>.btn{height:30px;padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}select.input-sm,.form-horizontal .form-group-sm select.form-control,.input-group-sm>select.form-control,.input-group-sm>select.input-group-addon,.input-group-sm>.input-group-btn>select.btn{height:30px;line-height:30px}textarea.input-sm,.form-horizontal .form-group-sm textarea.form-control,.input-group-sm>textarea.form-control,.input-group-sm>textarea.input-group-addon,.input-group-sm>.input-group-btn>textarea.btn,select[multiple].input-sm,.form-horizontal .form-group-sm select.form-control[multiple],.input-group-sm>select.form-control[multiple],.input-group-sm>select.input-group-addon[multiple],.input-group-sm>.input-group-btn>select.btn[multiple]{height:auto}.input-lg,.form-horizontal .form-group-lg .form-control,.input-group-lg>.form-control{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.input-group-lg>.input-group-addon{height:46px;line-height:1.33}.input-group-lg>.input-group-btn>.btn{height:46px;padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}select.input-lg,.form-horizontal .form-group-lg select.form-control,.input-group-lg>select.form-control,.input-group-lg>select.input-group-addon,.input-group-lg>.input-group-btn>select.btn{height:46px;line-height:46px}textarea.input-lg,.form-horizontal .form-group-lg textarea.form-control,.input-group-lg>textarea.form-control,.input-group-lg>textarea.input-group-addon,.input-group-lg>.input-group-btn>textarea.btn,select[multiple].input-lg,.form-horizontal .form-group-lg select.form-control[multiple],.input-group-lg>select.form-control[multiple],.input-group-lg>select.input-group-addon[multiple],.input-group-lg>.input-group-btn>select.btn[multiple]{height:auto}.has-feedback{position:relative}.has-feedback .form-control{padding-right:42.5px}.form-control-feedback{position:absolute;top:25px;right:0;z-index:2;display:block;width:34px;height:34px;line-height:34px;text-align:center}.input-lg+.form-control-feedback,.form-horizontal .form-group-lg .form-control+.form-control-feedback,.input-group-lg>.form-control+.form-control-feedback,.input-group-lg>.input-group-addon+.form-control-feedback,.input-group-lg>.input-group-btn>.btn+.form-control-feedback{width:46px;height:46px;line-height:46px}.input-sm+.form-control-feedback,.form-horizontal .form-group-sm .form-control+.form-control-feedback,.input-group-sm>.form-control+.form-control-feedback,.input-group-sm>.input-group-addon+.form-control-feedback,.input-group-sm>.input-group-btn>.btn+.form-control-feedback{width:30px;height:30px;line-height:30px}.has-success .help-block,.has-success .control-label,.has-success .radio,.has-success .checkbox,.has-success .radio-inline,.has-success .checkbox-inline{color:#3c763d}.has-success .form-control{border-color:#3c763d;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-success .form-control:focus{border-color:#2b542c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #67b168}.has-success .input-group-addon{color:#3c763d;border-color:#3c763d;background-color:#dff0d8}.has-success .form-control-feedback{color:#3c763d}.has-warning .help-block,.has-warning .control-label,.has-warning .radio,.has-warning .checkbox,.has-warning .radio-inline,.has-warning .checkbox-inline{color:#8a6d3b}.has-warning .form-control{border-color:#8a6d3b;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-warning .form-control:focus{border-color:#66512c;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b}.has-warning .input-group-addon{color:#8a6d3b;border-color:#8a6d3b;background-color:#fcf8e3}.has-warning .form-control-feedback{color:#8a6d3b}.has-error .help-block,.has-error .control-label,.has-error .radio,.has-error .checkbox,.has-error .radio-inline,.has-error .checkbox-inline{color:#a94442}.has-error .form-control{border-color:#a94442;box-shadow:inset 0 1px 1px rgba(0,0,0,.075)}.has-error .form-control:focus{border-color:#843534;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #ce8483}.has-error .input-group-addon{color:#a94442;border-color:#a94442;background-color:#f2dede}.has-error .form-control-feedback{color:#a94442}.has-feedback label.sr-only~.form-control-feedback{top:0}.help-block{display:block;margin-top:5px;margin-bottom:10px;color:#737373}.form-horizontal .radio,.form-horizontal .checkbox,.form-horizontal .radio-inline,.form-horizontal .checkbox-inline{margin-top:0;margin-bottom:0;padding-top:7px}.form-horizontal .radio,.form-horizontal .checkbox{min-height:27px}.form-horizontal .form-group{margin-left:-15px;margin-right:-15px}.form-horizontal .form-group:before{content:" ";display:table}.form-horizontal .form-group:after{content:" ";display:table;clear:both}.form-horizontal .has-feedback .form-control-feedback{top:0;right:15px}.btn{display:inline-block;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.btn:focus,.btn:active:focus,.btn.active:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.btn:hover,.btn:focus{color:#333;text-decoration:none}.btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn.disabled,.btn[disabled],fieldset[disabled] .btn{cursor:not-allowed;pointer-events:none;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.btn-default{color:#333;background-color:#fff;border-color:#ccc}.btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}.btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default:hover,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default.active{background-color:#fff;border-color:#ccc}.btn-default .badge{color:#fff;background-color:#333}.btn-primary{color:#fff;background-color:#428bca;border-color:#357ebd}.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#3071a9;border-color:#285e8e}.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary.active{background-color:#428bca;border-color:#357ebd}.btn-primary .badge{color:#428bca;background-color:#fff}.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{color:#fff;background-color:#449d44;border-color:#398439}.btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}.btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]:active,.btn-success[disabled].active,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success:hover,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}.btn-success .badge{color:#5cb85c;background-color:#fff}.btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}.btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{color:#fff;background-color:#31b0d5;border-color:#269abc}.btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}.btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]:active,.btn-info[disabled].active,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info.active{background-color:#5bc0de;border-color:#46b8da}.btn-info .badge{color:#5bc0de;background-color:#fff}.btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}.btn-warning:hover,.btn-warning:focus,.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{color:#fff;background-color:#ec971f;border-color:#d58512}.btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}.btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]:active,.btn-warning[disabled].active,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}.btn-warning .badge{color:#f0ad4e;background-color:#fff}.btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}.btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{color:#fff;background-color:#c9302c;border-color:#ac2925}.btn-danger:active,.btn-danger.active,.open>.btn-danger.dropdown-toggle{background-image:none}.btn-danger.disabled,.btn-danger.disabled:hover,.btn-danger.disabled:focus,.btn-danger.disabled:active,.btn-danger.disabled.active,.btn-danger[disabled],.btn-danger[disabled]:hover,.btn-danger[disabled]:focus,.btn-danger[disabled]:active,.btn-danger[disabled].active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}.btn-danger .badge{color:#d9534f;background-color:#fff}.btn-link{color:#428bca;font-weight:400;cursor:pointer;border-radius:0}.btn-link,.btn-link:active,.btn-link[disabled],fieldset[disabled] .btn-link{background-color:transparent;box-shadow:none}.btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}.btn-link:hover,.btn-link:focus{color:#2a6496;text-decoration:underline;background-color:transparent}.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] .btn-link:hover,fieldset[disabled] .btn-link:focus{color:#777;text-decoration:none}.btn-lg{padding:10px 16px;font-size:18px;line-height:1.33;border-radius:6px}.btn-sm{padding:5px 10px}.btn-sm,.btn-xs{font-size:12px;line-height:1.5;border-radius:3px}.btn-xs{padding:1px 5px}.btn-block{display:block;width:100%}.btn-block+.btn-block{margin-top:5px}input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"].btn-block{width:100%}.fade{opacity:0;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;transition:height .35s ease}.input-group{position:relative;display:table;border-collapse:separate}.input-group[class*="col-"]{float:none;padding-left:0;padding-right:0}.input-group .form-control{position:relative;z-index:2;float:left;width:100%;margin-bottom:0}.input-group-addon,.input-group-btn,.input-group .form-control{display:table-cell}.input-group-addon:not(:first-child):not(:last-child),.input-group-btn:not(:first-child):not(:last-child),.input-group .form-control:not(:first-child):not(:last-child){border-radius:0}.input-group-addon{white-space:nowrap}.input-group-addon,.input-group-btn{width:1%;vertical-align:middle}.input-group-addon{padding:6px 12px;font-size:14px;font-weight:400;line-height:1;color:#555;text-align:center;background-color:#eee;border:1px solid #ccc;border-radius:4px}.input-group-addon.input-sm,.form-horizontal .form-group-sm .input-group-addon.form-control,.input-group-sm>.input-group-addon,.input-group-sm>.input-group-btn>.input-group-addon.btn{padding:5px 10px;font-size:12px;border-radius:3px}.input-group-addon.input-lg,.form-horizontal .form-group-lg .input-group-addon.form-control,.input-group-lg>.input-group-addon,.input-group-lg>.input-group-btn>.input-group-addon.btn{padding:10px 16px;font-size:18px;border-radius:6px}.input-group-addon input[type="radio"],.input-group-addon input[type="checkbox"]{margin-top:0}.input-group .form-control:first-child,.input-group-addon:first-child,.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group>.btn,.input-group-btn:first-child>.dropdown-toggle,.input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle),.input-group-btn:last-child>.btn-group:not(:last-child)>.btn{border-bottom-right-radius:0;border-top-right-radius:0}.input-group-addon:first-child{border-right:0}.input-group .form-control:last-child,.input-group-addon:last-child,.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group>.btn,.input-group-btn:last-child>.dropdown-toggle,.input-group-btn:first-child>.btn:not(:first-child),.input-group-btn:first-child>.btn-group:not(:first-child)>.btn{border-bottom-left-radius:0;border-top-left-radius:0}.input-group-addon:last-child{border-left:0}.input-group-btn{font-size:0;white-space:nowrap}.input-group-btn,.input-group-btn>.btn{position:relative}.input-group-btn>.btn+.btn{margin-left:-1px}.input-group-btn>.btn:hover,.input-group-btn>.btn:focus,.input-group-btn>.btn:active{z-index:2}.input-group-btn:first-child>.btn,.input-group-btn:first-child>.btn-group{margin-right:-1px}.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group{margin-left:-1px}.pagination{display:inline-block;padding-left:0;margin:20px 0;border-radius:4px}.pagination>li{display:inline}.pagination>li>a,.pagination>li>span{position:relative;float:left;padding:6px 12px;line-height:1.4285714;text-decoration:none;color:#428bca;background-color:#fff;border:1px solid #ddd;margin-left:-1px}.pagination>li:first-child>a,.pagination>li:first-child>span{margin-left:0;border-bottom-left-radius:4px;border-top-left-radius:4px}.pagination>li:last-child>a,.pagination>li:last-child>span{border-bottom-right-radius:4px;border-top-right-radius:4px}.pagination>li>a:hover,.pagination>li>a:focus,.pagination>li>span:hover,.pagination>li>span:focus{color:#2a6496;background-color:#eee;border-color:#ddd}.pagination>.active>a,.pagination>.active>a:hover,.pagination>.active>a:focus,.pagination>.active>span,.pagination>.active>span:hover,.pagination>.active>span:focus{z-index:2;color:#fff;background-color:#428bca;border-color:#428bca;cursor:default}.pagination>.disabled>span,.pagination>.disabled>span:hover,.pagination>.disabled>span:focus,.pagination>.disabled>a,.pagination>.disabled>a:hover,.pagination>.disabled>a:focus{color:#777;background-color:#fff;border-color:#ddd;cursor:not-allowed}.pagination-lg>li>a,.pagination-lg>li>span{padding:10px 16px;font-size:18px}.pagination-lg>li:first-child>a,.pagination-lg>li:first-child>span{border-bottom-left-radius:6px;border-top-left-radius:6px}.pagination-lg>li:last-child>a,.pagination-lg>li:last-child>span{border-bottom-right-radius:6px;border-top-right-radius:6px}.pagination-sm>li>a,.pagination-sm>li>span{padding:5px 10px;font-size:12px}.pagination-sm>li:first-child>a,.pagination-sm>li:first-child>span{border-bottom-left-radius:3px;border-top-left-radius:3px}.pagination-sm>li:last-child>a,.pagination-sm>li:last-child>span{border-bottom-right-radius:3px;border-top-right-radius:3px}.close{float:right;font-size:21px;font-weight:700;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity:.2;filter:alpha(opacity=20)}.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:.5;filter:alpha(opacity=50)}button.close{padding:0;cursor:pointer;background:0 0;border:0;-webkit-appearance:none}.modal-open,.modal{overflow:hidden}.modal{display:none;position:fixed;top:0;right:0;bottom:0;left:0;z-index:1050;-webkit-overflow-scrolling:touch;outline:0}.modal.fade .modal-dialog{transform:translate3d(0,-25%,0);transition:transform .3s ease-out}.modal.in .modal-dialog{transform:translate3d(0,0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,.5);background-clip:padding-box;outline:0}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{opacity:0;filter:alpha(opacity=0)}.modal-backdrop.in{opacity:.5;filter:alpha(opacity=50)}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5;min-height:16.4285714px}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.4285714}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer:before,.modal-footer:after{content:" ";display:table}.modal-footer:after{clear:both}.modal-footer .btn+.btn{margin-left:5px;margin-bottom:0}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right!important}.pull-left{float:left!important}.hide{display:none!important}.show{display:block!important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none!important;visibility:hidden!important}.affix{position:fixed;transform:translate3d(0,0,0)}.hljs{display:block;overflow-x:auto;padding:.5em;background:#002b36;color:#839496;-webkit-text-size-adjust:none}.hljs-comment,.hljs-template_comment,.diff .hljs-header,.hljs-doctype,.hljs-pi,.lisp .hljs-string,.hljs-javadoc{color:#586e75}.hljs-keyword,.hljs-winutils,.method,.hljs-addition,.css .hljs-tag,.hljs-request,.hljs-status,.nginx .hljs-title{color:#859900}.hljs-number,.hljs-command,.hljs-string,.hljs-tag .hljs-value,.hljs-rules .hljs-value,.hljs-phpdoc,.hljs-dartdoc,.tex .hljs-formula,.hljs-regexp,.hljs-hexcolor,.hljs-link_url{color:#2aa198}.hljs-title,.hljs-localvars,.hljs-chunk,.hljs-decorator,.hljs-built_in,.hljs-identifier,.vhdl .hljs-literal,.hljs-id,.css .hljs-function{color:#268bd2}.hljs-attribute,.hljs-variable,.lisp .hljs-body,.smalltalk .hljs-number,.hljs-constant,.hljs-class .hljs-title,.hljs-parent,.hljs-type,.hljs-link_reference{color:#b58900}.hljs-preprocessor,.hljs-preprocessor .hljs-keyword,.hljs-pragma,.hljs-shebang,.hljs-symbol,.hljs-symbol .hljs-string,.diff .hljs-change,.hljs-special,.hljs-attr_selector,.hljs-subst,.hljs-cdata,.css .hljs-pseudo,.hljs-header{color:#cb4b16}.hljs-deletion,.hljs-important{color:#dc322f}.hljs-link_label{color:#6c71c4}.tex .hljs-formula{background:#073642}*,*:before,*:after{box-sizing:border-box}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}images{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd{font-size:1em}code,kbd,pre,samp{font-family:monospace,monospace}samp{font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;margin-right:5px}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}.debug{background-color:#ffc0cb!important}.ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ir{background-color:transparent;border:0;overflow:hidden}.ir::before{content:'';display:block;height:150%;width:0}html{font-size:.875em;background:#fff;color:#373D49}html,body{font-family:Georgia,Cambria,serif;height:100%}body{font-size:1rem;font-weight:400;line-height:2rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}li{font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-left:1rem}li>ul,li>ol{margin-bottom:0}p{padding-top:.66001rem;font-feature-settings:'kern' 1,'onum' 1,'liga' 1;margin-top:0}p,pre{margin-bottom:1.33999rem}pre{font-size:1rem;padding:.66001rem 9.5px 9.5px;line-height:2rem;background:linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);background-size:100% 4rem;border-color:#D3DAEA}blockquote{margin:0}blockquote p{font-size:1rem;margin-bottom:.33999rem;font-style:italic;padding:.66001rem 1rem 1rem;border-left:3px solid #A0AABF}th,td{padding:12px}h1,h2,h3,h4,h5,h6{font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-feature-settings:'dlig' 1,'liga' 1,'lnum' 1,'kern' 1;font-style:normal;font-weight:600;margin-top:0}h1{line-height:3rem;font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h2,h3{line-height:3rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}a{cursor:pointer;color:#35D7BB;text-decoration:none}a:hover,a:focus{border-bottom-color:#35D7BB;color:#dff9f4}img{height:auto;max-width:100%}dt{font-style:italic;font-weight:600}.g{display:block}.g:after{clear:both;content:'';display:table}.g-b{float:left;margin:0;width:100%}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--center{display:block;float:none;margin:0 auto}.g-b--right{float:right}.g-b--1of1{width:100%}.g-b--1of2,.g-b--2of4,.g-b--3of6,.g-b--4of8,.g-b--5of10,.g-b--6of12{width:50%}.g-b--1of3,.g-b--2of6,.g-b--4of12{width:33.333%}.g-b--2of3,.g-b--4of6,.g-b--8of12{width:66.666%}.g-b--1of4,.g-b--2of8,.g-b--3of12{width:25%}.g-b--3of4,.g-b--6of8,.g-b--9of12{width:75%}.g-b--1of5,.g-b--2of10{width:20%}.g-b--2of5,.g-b--4of10{width:40%}.g-b--3of5,.g-b--6of10{width:60%}.g-b--4of5,.g-b--8of10{width:80%}.g-b--1of6,.g-b--2of12{width:16.666%}.g-b--5of6,.g-b--10of12{width:83.333%}.g-b--1of8{width:12.5%}.g-b--3of8{width:37.5%}.g-b--5of8{width:62.5%}.g-b--7of8{width:87.5%}.g-b--1of10{width:10%}.g-b--3of10{width:30%}.g-b--7of10{width:70%}.g-b--9of10{width:90%}.g-b--1of12{width:8.333%}.g-b--5of12{width:41.666%}.g-b--7of12{width:58.333%}.g-b--11of12{width:91.666%}.g-b--push--1of1{margin-left:100%}.g-b--push--1of2,.g-b--push--2of4,.g-b--push--3of6,.g-b--push--4of8,.g-b--push--5of10,.g-b--push--6of12{margin-left:50%}.g-b--push--1of3,.g-b--push--2of6,.g-b--push--4of12{margin-left:33.333%}.g-b--push--2of3,.g-b--push--4of6,.g-b--push--8of12{margin-left:66.666%}.g-b--push--1of4,.g-b--push--2of8,.g-b--push--3of12{margin-left:25%}.g-b--push--3of4,.g-b--push--6of8,.g-b--push--9of12{margin-left:75%}.g-b--push--1of5,.g-b--push--2of10{margin-left:20%}.g-b--push--2of5,.g-b--push--4of10{margin-left:40%}.g-b--push--3of5,.g-b--push--6of10{margin-left:60%}.g-b--push--4of5,.g-b--push--8of10{margin-left:80%}.g-b--push--1of6,.g-b--push--2of12{margin-left:16.666%}.g-b--push--5of6,.g-b--push--10of12{margin-left:83.333%}.g-b--push--1of8{margin-left:12.5%}.g-b--push--3of8{margin-left:37.5%}.g-b--push--5of8{margin-left:62.5%}.g-b--push--7of8{margin-left:87.5%}.g-b--push--1of10{margin-left:10%}.g-b--push--3of10{margin-left:30%}.g-b--push--7of10{margin-left:70%}.g-b--push--9of10{margin-left:90%}.g-b--push--1of12{margin-left:8.333%}.g-b--push--5of12{margin-left:41.666%}.g-b--push--7of12{margin-left:58.333%}.g-b--push--11of12{margin-left:91.666%}.g-b--pull--1of1{margin-right:100%}.g-b--pull--1of2,.g-b--pull--2of4,.g-b--pull--3of6,.g-b--pull--4of8,.g-b--pull--5of10,.g-b--pull--6of12{margin-right:50%}.g-b--pull--1of3,.g-b--pull--2of6,.g-b--pull--4of12{margin-right:33.333%}.g-b--pull--2of3,.g-b--pull--4of6,.g-b--pull--8of12{margin-right:66.666%}.g-b--pull--1of4,.g-b--pull--2of8,.g-b--pull--3of12{margin-right:25%}.g-b--pull--3of4,.g-b--pull--6of8,.g-b--pull--9of12{margin-right:75%}.g-b--pull--1of5,.g-b--pull--2of10{margin-right:20%}.g-b--pull--2of5,.g-b--pull--4of10{margin-right:40%}.g-b--pull--3of5,.g-b--pull--6of10{margin-right:60%}.g-b--pull--4of5,.g-b--pull--8of10{margin-right:80%}.g-b--pull--1of6,.g-b--pull--2of12{margin-right:16.666%}.g-b--pull--5of6,.g-b--pull--10of12{margin-right:83.333%}.g-b--pull--1of8{margin-right:12.5%}.g-b--pull--3of8{margin-right:37.5%}.g-b--pull--5of8{margin-right:62.5%}.g-b--pull--7of8{margin-right:87.5%}.g-b--pull--1of10{margin-right:10%}.g-b--pull--3of10{margin-right:30%}.g-b--pull--7of10{margin-right:70%}.g-b--pull--9of10{margin-right:90%}.g-b--pull--1of12{margin-right:8.333%}.g-b--pull--5of12{margin-right:41.666%}.g-b--pull--7of12{margin-right:58.333%}.g-b--pull--11of12{margin-right:91.666%}.splashscreen{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#373D49;z-index:22}.splashscreen-dillinger{width:260px;height:auto;display:block;margin:0 auto;padding-bottom:3rem}.splashscreen p{font-size:1.25rem;padding-top:.56251rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;text-align:center;max-width:500px;margin:0 auto;color:#FFF}.sp-center{position:relative;transform:translateY(-50%);top:50%}.open-menu>.wrapper{overflow-x:hidden}.page{margin:0 auto;position:relative;top:0;left:0;width:100%;height:100%;z-index:2;transition:all .25s ease-in-out;background-color:#fff;padding-top:51px;will-change:left}.open-menu .page{left:270px}.title{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;color:#A0AABF;letter-spacing:1px;text-transform:uppercase;padding-left:16px;padding-right:16px;margin-top:1rem}.split-preview .title{padding-left:0}.title-document{line-height:1rem;font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem;font-weight:400;font-family:"Ubuntu Mono",Monaco;color:#373D49;padding-left:16px;padding-right:16px;width:80%;min-width:300px;outline:0;border:none}.icon{display:block;margin:0 auto;width:36px;height:36px;border-radius:3px;text-align:center}.icon svg{display:inline-block;margin-left:auto;margin-right:auto}.icon-preview{background-color:#373D49;line-height:40px}.icon-preview svg{width:19px;height:12px}.icon-settings{background-color:#373D49;line-height:44px}.icon-settings svg{width:18px;height:18px}.icon-link{width:16px;height:16px;line-height:1;margin-right:24px;text-align:right}.navbar{background-color:#373D49;height:51px;width:100%;position:fixed;top:0;left:0;z-index:6;transition:all .25s ease-in-out;will-change:left}.navbar:after{content:"";display:table;clear:both}.open-menu .navbar{left:270px}.navbar-brand{float:left;margin:0 0 0 24px;padding:0;line-height:42px}.navbar-brand svg{width:85px;height:11px}.nav-left{float:left}.nav-right{float:right}.nav-sidebar{width:100%}.menu{list-style:none;margin:0;padding:0}.menu a{border:0;color:#A0AABF;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;outline:none;text-transform:uppercase}.menu a:hover{color:#35D7BB}.menu .menu-item{border:0;display:none;float:left;margin:0;position:relative}.menu .menu-item>a{display:block;font-size:12px;height:51px;letter-spacing:1px;line-height:51px;padding:0 24px}.menu .menu-item--settings,.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar,.menu .menu-item--link-unlink.in-sidebar,.menu .menu-item--documents.in-sidebar{display:block}.menu .menu-item--documents{padding-bottom:1rem}.menu .menu-item.open>a{background-color:#1D212A}.menu .menu-item-icon>a{height:auto;padding:0}.menu .menu-item-icon:hover>a{background-color:transparent}.menu .menu-link.open i{background-color:#1D212A}.menu .menu-link.open g{fill:#35D7BB}.menu .menu-link-preview,.menu .menu-link-settings{margin-top:8px;width:51px}.menu-sidebar{width:100%}.menu-sidebar .menu-item{float:none;margin-bottom:1px;width:100%}.menu-sidebar .menu-item.open>a{background-color:#373D49}.menu-sidebar .open .caret{transform:rotate(180deg)}.menu-sidebar>.menu-item:hover .dropdown a,.menu-sidebar>.menu-item:hover .settings a{background-color:transparent}.menu-sidebar .menu-link{background-color:#373D49;font-weight:600}.menu-sidebar .menu-link:after{content:"";display:table;clear:both}.menu-sidebar .menu-link>span{float:left}.menu-sidebar .menu-link>.caret{float:right;text-align:right;top:22px}.menu-sidebar .dropdown,.menu-sidebar .settings{background-color:transparent;position:static;width:100%}.dropdown{position:absolute;right:0;top:51px;width:188px}.dropdown,.settings{display:none;background-color:#1D212A}.dropdown{padding:0}.dropdown,.settings,.sidebar-list{list-style:none;margin:0}.sidebar-list{padding:0}.dropdown li{margin:32px 0;padding:0 0 0 32px}.dropdown li,.settings li{line-height:1}.sidebar-list li{line-height:1;margin:32px 0;padding:0 0 0 32px}.dropdown a{color:#D0D6E2}.dropdown a,.settings a,.sidebar-list a{display:block;text-transform:none}.sidebar-list a{color:#D0D6E2}.dropdown a:after,.settings a:after,.sidebar-list a:after{content:"";display:table;clear:both}.dropdown .icon,.settings .icon,.sidebar-list .icon{float:right}.open .dropdown,.open .settings,.open .sidebar-list{display:block}.open .dropdown.collapse,.open .collapse.settings,.open .sidebar-list.collapse{display:none}.open .dropdown.collapse.in,.open .collapse.in.settings,.open .sidebar-list.collapse.in{display:block}.dropdown .unlinked .icon,.settings .unlinked .icon,.sidebar-list .unlinked .icon{opacity:.3}.dropdown.documents li,.documents.settings li,.sidebar-list.documents li{background-image:url("../img/icons/file.svg");background-position:240px center;background-repeat:no-repeat;background-size:14px 16px;padding:3px 32px}.dropdown.documents li.octocat,.documents.settings li.octocat,.sidebar-list.documents li.octocat{background-image:url("../img/icons/octocat.svg");background-position:234px center;background-size:24px 24px}.dropdown.documents li:last-child,.documents.settings li:last-child,.sidebar-list.documents li:last-child{margin-bottom:1rem}.dropdown.documents li.active a,.documents.settings li.active a,.sidebar-list.documents li.active a{color:#35D7BB}.settings{position:fixed;top:67px;right:16px;border-radius:3px;width:288px;background-color:#373D49;padding:16px;z-index:7}.show-settings .settings{display:block}.settings .has-checkbox{float:left}.settings form{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.settings input{width:20%}.settings a{font-size:1.25rem;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;-webkit-font-smoothing:antialiased;line-height:28px;color:#D0D6E2}.settings a:after{content:"";display:table;clear:both}.settings a:hover{color:#35D7BB}.settings li{border-bottom:1px solid #4F535B;margin:0;padding:16px 0}.settings li:last-child{border-bottom:none}.brand{border:none;display:block}.brand:hover g{fill:#35D7BB}.toggle{display:block;float:left;height:16px;padding:25px 16px 26px;width:40px}.toggle span:after,.toggle span:before{content:'';left:0;position:absolute;top:-6px}.toggle span:after{top:6px}.toggle span{display:block;position:relative}.toggle span,.toggle span:after,.toggle span:before{-webkit-backface-visibility:hidden;backface-visibility:hidden;background-color:#D3DAEA;height:2px;transition:all .3s;width:20px}.open-menu .toggle span{background-color:transparent}.open-menu .toggle span:before{transform:rotate(45deg) translate(3px,3px)}.open-menu .toggle span:after{transform:rotate(-45deg) translate(5px,-6px)}.caret{display:inline-block;width:0;height:0;margin-left:6px;vertical-align:middle;position:relative;top:-1px;border-top:4px solid;border-right:4px solid transparent;border-left:4px solid transparent}.sidebar{overflow:auto;height:100%;padding-right:15px;padding-bottom:15px;width:285px}.sidebar-wrapper{-webkit-overflow-scrolling:touch;background-color:#2B2F36;left:0;height:100%;overflow-y:hidden;position:fixed;top:0;width:285px;z-index:1}.sidebar-branding{width:160px;padding:0;margin:16px auto}.header{border-bottom:1px solid #E8E8E8;position:relative}.words,.characters{line-height:1rem;font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem;font-weight:500;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;letter-spacing:1px;text-transform:uppercase;z-index:5;position:absolute;right:16px;top:0}.words span,.characters span{color:#A0AABF}.words .counter,.characters .counter{color:#000}.words+.characters{top:22px}.mr10{margin-right:10px}.btn{text-align:center;display:inline-block;width:100%;text-transform:uppercase;font-weight:600;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;text-shadow:0 1px 0 #1b8b77;padding:16px 24px;background-color:#35D7BB;border-radius:3px;margin:0 auto 16px;line-height:1;color:#fff;transition:all .15s linear;-webkit-font-smoothing:antialiased}.btn--new,.btn--save{display:block;width:238px}.btn--new:hover,.btn--new:focus,.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 3px #24b59c;text-shadow:0 1px 0 #24b59c}.btn--save{background-color:#4A5261;text-shadow:0 1px 1px #1e2127}.btn--save:hover,.btn--save:focus{color:#fff;border-bottom-color:transparent;box-shadow:0 1px 5px #08090a;text-shadow:none}.btn--delete{display:block;width:238px;background-color:transparent;font-size:12px;text-shadow:none}.btn--delete:hover,.btn--delete:focus{color:#fff;border-bottom-color:transparent;text-shadow:0 1px 0 #08090a;opacity:.8}.btn--delete-modal,.btn--ok,.btn--close{border-top:0;background-color:#4A5261;text-shadow:0 1px 0 #08090a;margin:0}.btn--delete-modal:hover,.btn--delete-modal:focus,.btn--ok:hover,.btn--ok:focus,.btn--close:hover,.btn--close:focus{color:#fff;background-color:#292d36;text-shadow:none}.btn--delete-modal{display:inline;width:auto}.overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(55,61,73,.8);transition:all .25s ease-in-out;transition-timing-function:ease-out;will-change:left,opacity,visibility;z-index:5;opacity:0;visibility:hidden}.show-settings .overlay{visibility:visible;opacity:1}.switch{float:right;line-height:1}.switch input{display:none}.switch small{display:inline-block;cursor:pointer;padding:0 24px 0 0;transition:all ease .2s;background-color:#2B2F36;border-color:#2B2F36}.switch small,.switch small:before{border-radius:30px;box-shadow:inset 0 0 2px 0 #14171F}.switch small:before{display:block;content:'';width:28px;height:28px;background:#fff}.switch.checked small{padding-right:0;padding-left:24px;background-color:#35D7BB;box-shadow:none}.modal--dillinger.about .modal-dialog{font-size:1.25rem;max-width:500px}.modal--dillinger.scope .modal-dialog{max-width:300px;margin:5rem auto}.modal--dillinger .modal-dialog{max-width:600px;width:auto;margin:5rem auto}.modal--dillinger .modal-content{background:#373D49;border-radius:3px;box-shadow:0 2px 5px 0 #2C3B59;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;padding:2rem}.modal--dillinger ul{list-style-type:disc;margin:1rem 0;padding:0 0 0 1rem}.modal--dillinger li{padding:0;margin:0}.modal--dillinger .modal-header{border:0;padding:0}.modal--dillinger .modal-body{padding:0}.modal--dillinger .modal-footer{border:0;padding:0}.modal--dillinger .close{color:#fff;opacity:1}.modal-backdrop{background-color:#373D49}.pagination--dillinger{padding:0!important;margin:1.5rem 0!important;display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:stretch;align-content:stretch}.pagination--dillinger li{display:-ms-flexbox;display:flex;-ms-flex-positive:1;flex-grow:1;text-align:center}.pagination--dillinger li:first-child>a,.pagination--dillinger li.disabled>a,.pagination--dillinger li.disabled>a:hover,.pagination--dillinger li.disabled>a:focus,.pagination--dillinger li>a{background-color:transparent;border-color:#4F535B;border-right-color:transparent}.pagination--dillinger li.active>a,.pagination--dillinger li.active>a:hover,.pagination--dillinger li.active>a:focus{border-color:#4A5261;background-color:#4A5261;color:#fff}.pagination--dillinger li>a{float:none;color:#fff;width:100%;display:block;text-align:center;margin:0;border-right-color:transparent;padding:6px}.pagination--dillinger li>a:hover,.pagination--dillinger li>a:focus{border-color:#35D7BB;background-color:#35D7BB;color:#fff}.pagination--dillinger li:last-child a{border-color:#4F535B}.pagination--dillinger li:first-child a{border-right-color:transparent}.diNotify{position:absolute;z-index:9999;left:0;right:0;top:0;margin:0 auto;max-width:400px;text-align:center;transition:top .5s ease-in-out,opacity .5s ease-in-out;visibility:hidden}.diNotify-body{-webkit-font-smoothing:antialiased;background-color:#35D7BB;background:#666E7F;border-radius:3px;color:#fff;font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:400;overflow:hidden;padding:1rem 2rem .5rem;display:-ms-flexbox;display:flex;-ms-flex-align:baseline;align-items:baseline;-ms-flex-pack:center;justify-content:center}.diNotify-icon{display:block;width:16px;height:16px;line-height:16px;position:relative;top:3px}.diNotify-message{padding-left:1rem}.zen-wrapper{position:fixed;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:10;background-color:#FFF;opacity:0;transition:opacity .25s ease-in-out}.zen-wrapper.on{opacity:1}.enter-zen-mode{background-image:url("../img/icons/enter-zen.svg");right:.5rem;top:.313rem;display:none}.enter-zen-mode,.close-zen-mode{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute}.close-zen-mode{background-image:url("../img/icons/exit-zen.svg");right:1rem;top:1rem}.zen-page{position:relative;top:0;bottom:0;z-index:11;height:100%;width:100%}#zen{font-size:1.25rem;width:300px;height:80%;margin:0 auto;position:relative;top:10%}#zen:before,#zen:after{content:"";position:absolute;height:10%;width:100%;z-index:12;pointer-events:none}#preview .table{width:auto}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block}.ui-resizable-e{background-color:#666;border-right:8px solid #e8e8e8;border-left:1px solid #222;width:10px;z-index:88!important;position:relative}.ui-resizable-e:after{content:"-";display:block;position:absolute;top:calc(50% - 16px);left:0;height:25px;width:2px;background-color:rgba(0,0,0,.4);margin:3px}#editor{cursor:ew-resize;position:relative;z-index:auto}.profile-pic{float:left;width:250px}#_default_ a::before{color:#A0AABF}#_default_ img{display:none}#_default_ #_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ .default-ad{display:none}#_default_ ._default_{display:block}#_default_ a{color:#35d7bb;text-decoration:none}#_default_ a:hover{color:#8ae8d8}#_default_ .default-image{display:none}#_default_ .default-title:after{content:" — "}#_default_ .default-title,#_default_ .default-text,#_default_ .default-description{display:inline}#_default_ .default-title{position:relative;font-weight:600;display:none}#_default_ a:before{position:relative;top:0;padding:5px;color:#a0aabf;content:"Ad";text-transform:uppercase;font-size:8px;font-family:Verdana,sans-serif}#_default_{display:block;float:left;max-width:38%;word-wrap:break-word}#_default_ ._default_{display:block;font-size:.75rem;height:51px;letter-spacing:1px;line-height:1rem;padding:18px 24px}body{max-width:1024px;margin:0 auto;overflow:auto;padding:2%}.split{overflow:scroll;padding:0!important;-webkit-overflow-scrolling:touch}.split-editor{padding-left:0;padding-right:0;position:relative;z-index:3}.show-preview .split-editor{display:none}.split-preview{background-color:#fff;display:none;top:0;position:relative;z-index:4}.show-preview .split-preview{display:block}#editor{font-size:1rem;font-family:"Ubuntu Mono",Monaco;font-weight:400;line-height:2rem;width:100%;height:100%}#editor .ace_gutter{-webkit-font-smoothing:antialiased}.editor-header{width:50%;float:left;border-bottom:1px solid #E8E8E8;position:relative}.editor-header--first{border-right:1px solid #E8E8E8}.editor-header .title{display:inline-block}.preview-html{padding:15px}.preview-html a{color:#A0AABF;text-decoration:underline}.preview-src{white-space:normal}.preview-mode-toggle-src{background-image:url("../img/icons/code.svg")}.preview-mode-toggle-src,.preview-mode-toggle-html{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;background-repeat:no-repeat;width:32px;height:32px;display:block;position:absolute;right:.5rem;top:.5rem;display:none}.preview-mode-toggle-html{background-image:url("../img/icons/eye.svg")}.sr-only{visibility:hidden;text-overflow:110%;overflow:hidden;top:-100px;position:absolute}.mnone{margin:0!important}@media screen and (min-width:27.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--m1of1{width:100%}.g-b--m1of2,.g-b--m2of4,.g-b--m3of6,.g-b--m4of8,.g-b--m5of10,.g-b--m6of12{width:50%}.g-b--m1of3,.g-b--m2of6,.g-b--m4of12{width:33.333%}.g-b--m2of3,.g-b--m4of6,.g-b--m8of12{width:66.666%}.g-b--m1of4,.g-b--m2of8,.g-b--m3of12{width:25%}.g-b--m3of4,.g-b--m6of8,.g-b--m9of12{width:75%}.g-b--m1of5,.g-b--m2of10{width:20%}.g-b--m2of5,.g-b--m4of10{width:40%}.g-b--m3of5,.g-b--m6of10{width:60%}.g-b--m4of5,.g-b--m8of10{width:80%}.g-b--m1of6,.g-b--m2of12{width:16.666%}.g-b--m5of6,.g-b--m10of12{width:83.333%}.g-b--m1of8{width:12.5%}.g-b--m3of8{width:37.5%}.g-b--m5of8{width:62.5%}.g-b--m7of8{width:87.5%}.g-b--m1of10{width:10%}.g-b--m3of10{width:30%}.g-b--m7of10{width:70%}.g-b--m9of10{width:90%}.g-b--m1of12{width:8.333%}.g-b--m5of12{width:41.666%}.g-b--m7of12{width:58.333%}.g-b--m11of12{width:91.666%}.g-b--push--m1of1{margin-left:100%}.g-b--push--m1of2,.g-b--push--m2of4,.g-b--push--m3of6,.g-b--push--m4of8,.g-b--push--m5of10,.g-b--push--m6of12{margin-left:50%}.g-b--push--m1of3,.g-b--push--m2of6,.g-b--push--m4of12{margin-left:33.333%}.g-b--push--m2of3,.g-b--push--m4of6,.g-b--push--m8of12{margin-left:66.666%}.g-b--push--m1of4,.g-b--push--m2of8,.g-b--push--m3of12{margin-left:25%}.g-b--push--m3of4,.g-b--push--m6of8,.g-b--push--m9of12{margin-left:75%}.g-b--push--m1of5,.g-b--push--m2of10{margin-left:20%}.g-b--push--m2of5,.g-b--push--m4of10{margin-left:40%}.g-b--push--m3of5,.g-b--push--m6of10{margin-left:60%}.g-b--push--m4of5,.g-b--push--m8of10{margin-left:80%}.g-b--push--m1of6,.g-b--push--m2of12{margin-left:16.666%}.g-b--push--m5of6,.g-b--push--m10of12{margin-left:83.333%}.g-b--push--m1of8{margin-left:12.5%}.g-b--push--m3of8{margin-left:37.5%}.g-b--push--m5of8{margin-left:62.5%}.g-b--push--m7of8{margin-left:87.5%}.g-b--push--m1of10{margin-left:10%}.g-b--push--m3of10{margin-left:30%}.g-b--push--m7of10{margin-left:70%}.g-b--push--m9of10{margin-left:90%}.g-b--push--m1of12{margin-left:8.333%}.g-b--push--m5of12{margin-left:41.666%}.g-b--push--m7of12{margin-left:58.333%}.g-b--push--m11of12{margin-left:91.666%}.g-b--pull--m1of1{margin-right:100%}.g-b--pull--m1of2,.g-b--pull--m2of4,.g-b--pull--m3of6,.g-b--pull--m4of8,.g-b--pull--m5of10,.g-b--pull--m6of12{margin-right:50%}.g-b--pull--m1of3,.g-b--pull--m2of6,.g-b--pull--m4of12{margin-right:33.333%}.g-b--pull--m2of3,.g-b--pull--m4of6,.g-b--pull--m8of12{margin-right:66.666%}.g-b--pull--m1of4,.g-b--pull--m2of8,.g-b--pull--m3of12{margin-right:25%}.g-b--pull--m3of4,.g-b--pull--m6of8,.g-b--pull--m9of12{margin-right:75%}.g-b--pull--m1of5,.g-b--pull--m2of10{margin-right:20%}.g-b--pull--m2of5,.g-b--pull--m4of10{margin-right:40%}.g-b--pull--m3of5,.g-b--pull--m6of10{margin-right:60%}.g-b--pull--m4of5,.g-b--pull--m8of10{margin-right:80%}.g-b--pull--m1of6,.g-b--pull--m2of12{margin-right:16.666%}.g-b--pull--m5of6,.g-b--pull--m10of12{margin-right:83.333%}.g-b--pull--m1of8{margin-right:12.5%}.g-b--pull--m3of8{margin-right:37.5%}.g-b--pull--m5of8{margin-right:62.5%}.g-b--pull--m7of8{margin-right:87.5%}.g-b--pull--m1of10{margin-right:10%}.g-b--pull--m3of10{margin-right:30%}.g-b--pull--m7of10{margin-right:70%}.g-b--pull--m9of10{margin-right:90%}.g-b--pull--m1of12{margin-right:8.333%}.g-b--pull--m5of12{margin-right:41.666%}.g-b--pull--m7of12{margin-right:58.333%}.g-b--pull--m11of12{margin-right:91.666%}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:400px}#editor{font-size:1rem}}@media screen and (min-width:46.25em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--t1of1{width:100%}.g-b--t1of2,.g-b--t2of4,.g-b--t3of6,.g-b--t4of8,.g-b--t5of10,.g-b--t6of12{width:50%}.g-b--t1of3,.g-b--t2of6,.g-b--t4of12{width:33.333%}.g-b--t2of3,.g-b--t4of6,.g-b--t8of12{width:66.666%}.g-b--t1of4,.g-b--t2of8,.g-b--t3of12{width:25%}.g-b--t3of4,.g-b--t6of8,.g-b--t9of12{width:75%}.g-b--t1of5,.g-b--t2of10{width:20%}.g-b--t2of5,.g-b--t4of10{width:40%}.g-b--t3of5,.g-b--t6of10{width:60%}.g-b--t4of5,.g-b--t8of10{width:80%}.g-b--t1of6,.g-b--t2of12{width:16.666%}.g-b--t5of6,.g-b--t10of12{width:83.333%}.g-b--t1of8{width:12.5%}.g-b--t3of8{width:37.5%}.g-b--t5of8{width:62.5%}.g-b--t7of8{width:87.5%}.g-b--t1of10{width:10%}.g-b--t3of10{width:30%}.g-b--t7of10{width:70%}.g-b--t9of10{width:90%}.g-b--t1of12{width:8.333%}.g-b--t5of12{width:41.666%}.g-b--t7of12{width:58.333%}.g-b--t11of12{width:91.666%}.g-b--push--t1of1{margin-left:100%}.g-b--push--t1of2,.g-b--push--t2of4,.g-b--push--t3of6,.g-b--push--t4of8,.g-b--push--t5of10,.g-b--push--t6of12{margin-left:50%}.g-b--push--t1of3,.g-b--push--t2of6,.g-b--push--t4of12{margin-left:33.333%}.g-b--push--t2of3,.g-b--push--t4of6,.g-b--push--t8of12{margin-left:66.666%}.g-b--push--t1of4,.g-b--push--t2of8,.g-b--push--t3of12{margin-left:25%}.g-b--push--t3of4,.g-b--push--t6of8,.g-b--push--t9of12{margin-left:75%}.g-b--push--t1of5,.g-b--push--t2of10{margin-left:20%}.g-b--push--t2of5,.g-b--push--t4of10{margin-left:40%}.g-b--push--t3of5,.g-b--push--t6of10{margin-left:60%}.g-b--push--t4of5,.g-b--push--t8of10{margin-left:80%}.g-b--push--t1of6,.g-b--push--t2of12{margin-left:16.666%}.g-b--push--t5of6,.g-b--push--t10of12{margin-left:83.333%}.g-b--push--t1of8{margin-left:12.5%}.g-b--push--t3of8{margin-left:37.5%}.g-b--push--t5of8{margin-left:62.5%}.g-b--push--t7of8{margin-left:87.5%}.g-b--push--t1of10{margin-left:10%}.g-b--push--t3of10{margin-left:30%}.g-b--push--t7of10{margin-left:70%}.g-b--push--t9of10{margin-left:90%}.g-b--push--t1of12{margin-left:8.333%}.g-b--push--t5of12{margin-left:41.666%}.g-b--push--t7of12{margin-left:58.333%}.g-b--push--t11of12{margin-left:91.666%}.g-b--pull--t1of1{margin-right:100%}.g-b--pull--t1of2,.g-b--pull--t2of4,.g-b--pull--t3of6,.g-b--pull--t4of8,.g-b--pull--t5of10,.g-b--pull--t6of12{margin-right:50%}.g-b--pull--t1of3,.g-b--pull--t2of6,.g-b--pull--t4of12{margin-right:33.333%}.g-b--pull--t2of3,.g-b--pull--t4of6,.g-b--pull--t8of12{margin-right:66.666%}.g-b--pull--t1of4,.g-b--pull--t2of8,.g-b--pull--t3of12{margin-right:25%}.g-b--pull--t3of4,.g-b--pull--t6of8,.g-b--pull--t9of12{margin-right:75%}.g-b--pull--t1of5,.g-b--pull--t2of10{margin-right:20%}.g-b--pull--t2of5,.g-b--pull--t4of10{margin-right:40%}.g-b--pull--t3of5,.g-b--pull--t6of10{margin-right:60%}.g-b--pull--t4of5,.g-b--pull--t8of10{margin-right:80%}.g-b--pull--t1of6,.g-b--pull--t2of12{margin-right:16.666%}.g-b--pull--t5of6,.g-b--pull--t10of12{margin-right:83.333%}.g-b--pull--t1of8{margin-right:12.5%}.g-b--pull--t3of8{margin-right:37.5%}.g-b--pull--t5of8{margin-right:62.5%}.g-b--pull--t7of8{margin-right:87.5%}.g-b--pull--t1of10{margin-right:10%}.g-b--pull--t3of10{margin-right:30%}.g-b--pull--t7of10{margin-right:70%}.g-b--pull--t9of10{margin-right:90%}.g-b--pull--t1of12{margin-right:8.333%}.g-b--pull--t5of12{margin-right:41.666%}.g-b--pull--t7of12{margin-right:58.333%}.g-b--pull--t11of12{margin-right:91.666%}.splashscreen-dillinger{width:500px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--save-to,.menu .menu-item--import-from{display:block}.menu .menu-item--preview,.menu .menu-item--save-to.in-sidebar,.menu .menu-item--import-from.in-sidebar{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog{font-size:1.25rem}.enter-zen-mode{display:block}.close-zen-mode{right:3rem;top:3rem}#zen{font-size:1.25rem;width:500px}.split-editor{border-right:1px solid #E8E8E8;float:left;padding-right:16px;width:50%}.show-preview .split-editor{display:block}.split-preview{display:block;float:right;position:relative;top:0;width:50%}#editor{font-size:1rem}.preview-mode-toggle-src,.preview-mode-toggle-html{display:block}}@media screen and (min-width:62.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.g{margin-left:-16px;margin-right:-16px}.g-b{padding-left:16px;padding-right:16px}.g-b--d1of1{width:100%}.g-b--d1of2,.g-b--d2of4,.g-b--d3of6,.g-b--d4of8,.g-b--d5of10,.g-b--d6of12{width:50%}.g-b--d1of3,.g-b--d2of6,.g-b--d4of12{width:33.333%}.g-b--d2of3,.g-b--d4of6,.g-b--d8of12{width:66.666%}.g-b--d1of4,.g-b--d2of8,.g-b--d3of12{width:25%}.g-b--d3of4,.g-b--d6of8,.g-b--d9of12{width:75%}.g-b--d1of5,.g-b--d2of10{width:20%}.g-b--d2of5,.g-b--d4of10{width:40%}.g-b--d3of5,.g-b--d6of10{width:60%}.g-b--d4of5,.g-b--d8of10{width:80%}.g-b--d1of6,.g-b--d2of12{width:16.666%}.g-b--d5of6,.g-b--d10of12{width:83.333%}.g-b--d1of8{width:12.5%}.g-b--d3of8{width:37.5%}.g-b--d5of8{width:62.5%}.g-b--d7of8{width:87.5%}.g-b--d1of10{width:10%}.g-b--d3of10{width:30%}.g-b--d7of10{width:70%}.g-b--d9of10{width:90%}.g-b--d1of12{width:8.333%}.g-b--d5of12{width:41.666%}.g-b--d7of12{width:58.333%}.g-b--d11of12{width:91.666%}.g-b--push--d1of1{margin-left:100%}.g-b--push--d1of2,.g-b--push--d2of4,.g-b--push--d3of6,.g-b--push--d4of8,.g-b--push--d5of10,.g-b--push--d6of12{margin-left:50%}.g-b--push--d1of3,.g-b--push--d2of6,.g-b--push--d4of12{margin-left:33.333%}.g-b--push--d2of3,.g-b--push--d4of6,.g-b--push--d8of12{margin-left:66.666%}.g-b--push--d1of4,.g-b--push--d2of8,.g-b--push--d3of12{margin-left:25%}.g-b--push--d3of4,.g-b--push--d6of8,.g-b--push--d9of12{margin-left:75%}.g-b--push--d1of5,.g-b--push--d2of10{margin-left:20%}.g-b--push--d2of5,.g-b--push--d4of10{margin-left:40%}.g-b--push--d3of5,.g-b--push--d6of10{margin-left:60%}.g-b--push--d4of5,.g-b--push--d8of10{margin-left:80%}.g-b--push--d1of6,.g-b--push--d2of12{margin-left:16.666%}.g-b--push--d5of6,.g-b--push--d10of12{margin-left:83.333%}.g-b--push--d1of8{margin-left:12.5%}.g-b--push--d3of8{margin-left:37.5%}.g-b--push--d5of8{margin-left:62.5%}.g-b--push--d7of8{margin-left:87.5%}.g-b--push--d1of10{margin-left:10%}.g-b--push--d3of10{margin-left:30%}.g-b--push--d7of10{margin-left:70%}.g-b--push--d9of10{margin-left:90%}.g-b--push--d1of12{margin-left:8.333%}.g-b--push--d5of12{margin-left:41.666%}.g-b--push--d7of12{margin-left:58.333%}.g-b--push--d11of12{margin-left:91.666%}.g-b--pull--d1of1{margin-right:100%}.g-b--pull--d1of2,.g-b--pull--d2of4,.g-b--pull--d3of6,.g-b--pull--d4of8,.g-b--pull--d5of10,.g-b--pull--d6of12{margin-right:50%}.g-b--pull--d1of3,.g-b--pull--d2of6,.g-b--pull--d4of12{margin-right:33.333%}.g-b--pull--d2of3,.g-b--pull--d4of6,.g-b--pull--d8of12{margin-right:66.666%}.g-b--pull--d1of4,.g-b--pull--d2of8,.g-b--pull--d3of12{margin-right:25%}.g-b--pull--d3of4,.g-b--pull--d6of8,.g-b--pull--d9of12{margin-right:75%}.g-b--pull--d1of5,.g-b--pull--d2of10{margin-right:20%}.g-b--pull--d2of5,.g-b--pull--d4of10{margin-right:40%}.g-b--pull--d3of5,.g-b--pull--d6of10{margin-right:60%}.g-b--pull--d4of5,.g-b--pull--d8of10{margin-right:80%}.g-b--pull--d1of6,.g-b--pull--d2of12{margin-right:16.666%}.g-b--pull--d5of6,.g-b--pull--d10of12{margin-right:83.333%}.g-b--pull--d1of8{margin-right:12.5%}.g-b--pull--d3of8{margin-right:37.5%}.g-b--pull--d5of8{margin-right:62.5%}.g-b--pull--d7of8{margin-right:87.5%}.g-b--pull--d1of10{margin-right:10%}.g-b--pull--d3of10{margin-right:30%}.g-b--pull--d7of10{margin-right:70%}.g-b--pull--d9of10{margin-right:90%}.g-b--pull--d1of12{margin-right:8.333%}.g-b--pull--d5of12{margin-right:41.666%}.g-b--pull--d7of12{margin-right:58.333%}.g-b--pull--d11of12{margin-right:91.666%}.splashscreen-dillinger{width:700px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{font-size:1.25rem;margin-bottom:.89999rem;padding-top:.10001rem}.menu .menu-item--export-as{display:block}.menu .menu-item--preview{display:none}.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#zen{width:700px}#editor{font-size:1rem}}@media screen and (min-width:87.5em){html{font-size:.875em}body{font-size:1rem}ul,ol{margin-bottom:.83999rem;padding-top:.16001rem}p{padding-top:.66001rem}p,pre{margin-bottom:1.33999rem}pre,blockquote p{font-size:1rem;padding-top:.66001rem}blockquote p{margin-bottom:.33999rem}h1{font-size:2.0571429rem;margin-bottom:.21999rem;padding-top:.78001rem}h2{font-size:1.953125rem;margin-bottom:.1835837rem;padding-top:.8164163rem}h3{font-size:1.6457143rem;margin-bottom:.07599rem;padding-top:.92401rem}h4{font-size:1.5625rem;margin-bottom:.546865rem;padding-top:.453135rem}h5{font-size:1.25rem;margin-bottom:-.56251rem;padding-top:.56251rem}h6{font-size:1rem;margin-bottom:-.65001rem;padding-top:.65001rem}.splashscreen-dillinger{width:800px}.splashscreen p{font-size:1.25rem;margin-bottom:1.43749rem;padding-top:.56251rem}.title{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.title-document{margin-bottom:.89999rem;padding-top:.10001rem}.title-document,.settings a{font-size:1.25rem}.words,.characters{font-size:.8rem;margin-bottom:.77999rem;padding-top:.22001rem}.modal--dillinger.about .modal-dialog,#zen{font-size:1.25rem}#editor{font-size:1rem}}@media (min-width:768px){.form-inline .form-group{display:inline-block;margin-bottom:0;vertical-align:middle}.form-inline .form-control{display:inline-block;width:auto;vertical-align:middle}.form-inline .input-group{display:inline-table;vertical-align:middle}.form-inline .input-group .input-group-addon,.form-inline .input-group .input-group-btn,.form-inline .input-group .form-control{width:auto}.form-inline .input-group>.form-control{width:100%}.form-inline .control-label{margin-bottom:0;vertical-align:middle}.form-inline .radio,.form-inline .checkbox{display:inline-block;margin-top:0;margin-bottom:0;vertical-align:middle}.form-inline .radio label,.form-inline .checkbox label{padding-left:0}.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{position:relative;margin-left:0}.form-inline .has-feedback .form-control-feedback{top:0}.form-horizontal .control-label{text-align:right;margin-bottom:0;padding-top:7px}.form-horizontal .form-group-lg .control-label{padding-top:14.3px}.form-horizontal .form-group-sm .control-label{padding-top:6px}.modal-dialog{width:600px;margin:30px auto}.modal-content{box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}@media (min-width:992px){.modal-lg{width:900px}}@media screen and (max-width:1200px){#_default_{max-width:30%}#_default_ ._default_{font-size:.825rem;line-height:.875rem;padding:12px 12px 6px 24px;text-align:justify}}@media screen and (max-width:1100px){#_default_{max-width:27%}#_default_ ._default_{font-size:.8rem;line-height:.85rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:1000px){#_default_{max-width:24%}#_default_ ._default_{font-size:.775rem;line-height:.8rem;padding:12px 6px 6px 24px;text-align:justify}}@media screen and (max-width:900px){#_default_{max-width:30%}}@media screen and (max-width:767px){.table-responsive{width:100%;margin-bottom:15px;overflow-y:hidden;overflow-x:auto;-ms-overflow-style:-ms-autohiding-scrollbar;border:1px solid #ddd;-webkit-overflow-scrolling:touch}.table-responsive>.table{margin-bottom:0}.table-responsive>.table>thead>tr>th,.table-responsive>.table>thead>tr>td,.table-responsive>.table>tbody>tr>th,.table-responsive>.table>tbody>tr>td,.table-responsive>.table>tfoot>tr>th,.table-responsive>.table>tfoot>tr>td{white-space:nowrap}.table-responsive>.table-bordered{border:0}.table-responsive>.table-bordered>thead>tr>th:first-child,.table-responsive>.table-bordered>thead>tr>td:first-child,.table-responsive>.table-bordered>tbody>tr>th:first-child,.table-responsive>.table-bordered>tbody>tr>td:first-child,.table-responsive>.table-bordered>tfoot>tr>th:first-child,.table-responsive>.table-bordered>tfoot>tr>td:first-child{border-left:0}.table-responsive>.table-bordered>thead>tr>th:last-child,.table-responsive>.table-bordered>thead>tr>td:last-child,.table-responsive>.table-bordered>tbody>tr>th:last-child,.table-responsive>.table-bordered>tbody>tr>td:last-child,.table-responsive>.table-bordered>tfoot>tr>th:last-child,.table-responsive>.table-bordered>tfoot>tr>td:last-child{border-right:0}.table-responsive>.table-bordered>tbody>tr:last-child>th,.table-responsive>.table-bordered>tbody>tr:last-child>td,.table-responsive>.table-bordered>tfoot>tr:last-child>th,.table-responsive>.table-bordered>tfoot>tr:last-child>td{border-bottom:0}}@media screen and (max-width:720px){#_default_{max-width:60%}#_default_ ._default_{font-size:.75rem;line-height:1rem;padding:12px 24px}}@media screen and (max-width:620px){#_default_{max-width:50%}#_default_ ._default_{font-size:.66rem;letter-spacing:1px;line-height:1rem;padding:10px 24px}}@media screen and (max-width:520px){#_default_ ._default_{font-size:.4rem;line-height:.875rem;padding:6px 12px 6px 24px;text-align:justify}}@media screen and (max-width:460px){#_default_{display:none}}@media screen and (max-width:46.1875em){.editor-header{display:none}.editor-header--first{display:block;width:100%}}</style></head><body id="preview">
+<p class="has-line-data" data-line-start="0" data-line-end="1"><strong>NodeJs</strong></p>
+<p class="has-line-data" data-line-start="2" data-line-end="3"><strong>What is Node Js?</strong></p>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Node.js is a platform for easily creating fast and scalable network applications that is built on Chrome’s JavaScript runtime. Node.js employs an event-driven, non-blocking I/O model that is lightweight and efficient, making it ideal for data-intensive real-time applications that run across distributed devices.</p>
+<p class="has-line-data" data-line-start="6" data-line-end="7">The github wiki link below contains an exhaustive list of projects, applications, and companies that use Node.js. eBay, General Electric, GoDaddy, Microsoft, PayPal, Uber, Wikipins, Yahoo!, and Yammer are among the companies on this list.</p>
+<p class="has-line-data" data-line-start="8" data-line-end="9"><strong>Features of Node Js</strong></p>
+<ul>
+<li class="has-line-data" data-line-start="10" data-line-end="11"><strong>Asynchronous and Event Driven:</strong> All APIs in the Node.js library is asynchronous, which means they are not blocking. It essentially means that a Node.js-based server will never have to wait for an API to return data. After calling an API, the server moves on to the next one, and a Node.js notification mechanism assists the server in receiving a response from the previous API call.</li>
+<li class="has-line-data" data-line-start="11" data-line-end="12"><strong>Very Fast:</strong> Node.js library is very fast in code execution because it is built on Google Chrome’s V8 JavaScript Engine.</li>
+<li class="has-line-data" data-line-start="12" data-line-end="13"><strong>Single Threaded but Highly Scalable:</strong> Node.js employs a single-threaded model that employs event looping. In contrast to traditional servers, which create limited threads to handle requests, the event mechanism allows the server to respond in a non-blocking manner and makes the server highly scalable. Node.js employs a single threaded programme, and the same programme can handle a much greater number of requests than traditional servers such as Apache HTTP Server.</li>
+<li class="has-line-data" data-line-start="13" data-line-end="15"><strong>No buffering:</strong> Data is never buffered in Node.js applications. These programmes simply output data in chunks.</li>
+</ul>
+<p class="has-line-data" data-line-start="15" data-line-end="16">The following are some of the areas where Node.js has proven to be an excellent technology partner.</p>
+<ul>
+<li class="has-line-data" data-line-start="17" data-line-end="18">Applications that are I/O bound</li>
+<li class="has-line-data" data-line-start="18" data-line-end="19">Applications for Data Streaming</li>
+<li class="has-line-data" data-line-start="19" data-line-end="20">Extensive Data Applications that run in real time (DIRT)</li>
+<li class="has-line-data" data-line-start="20" data-line-end="21">Applications based on JSON APIs</li>
+<li class="has-line-data" data-line-start="21" data-line-end="23">Applications on a Single Page</li>
+</ul>
+<p class="has-line-data" data-line-start="23" data-line-end="24">The three most important components of a Node.js application are as follows: −</p>
+<ul>
+<li class="has-line-data" data-line-start="25" data-line-end="26">Import required modules: To load Node.js modules, we use the require directive.</li>
+<li class="has-line-data" data-line-start="26" data-line-end="27">Live Demonstration: Create a server that will listen for client requests in the same way that Apache HTTP Server does.</li>
+<li class="has-line-data" data-line-start="27" data-line-end="29">Read the request and return the response: The server that was created earlier will read the HTTP request made by the client, which can be a browser or a console, and return the response.</li>
+</ul>
+<p class="has-line-data" data-line-start="29" data-line-end="30">Example:</p>
+<pre><code class="has-line-data" data-line-start="31" data-line-end="41">process.stdin.on(&quot;data&quot;, (data) =&gt; {
+const name = data.toString().trim().toUpperCase();
+if (name !== &quot;&quot;) {
+process.stdout.write(`Hello ${name}!`);
+} else {
+process.stderr.write(&quot;Input was empty.&quot;);
+}
+});
+}
+</code></pre>
+<p class="has-line-data" data-line-start="41" data-line-end="42">Input:</p>
+<pre><code class="has-line-data" data-line-start="43" data-line-end="45">Nirmal
+</code></pre>
+<p class="has-line-data" data-line-start="45" data-line-end="46">Output:</p>
+<pre><code class="has-line-data" data-line-start="47" data-line-end="49">Hello NIRMAL!
+</code></pre>
+<p class="has-line-data" data-line-start="50" data-line-end="51"><strong>Node.js - REPL Terminal</strong></p>
+<p class="has-line-data" data-line-start="52" data-line-end="53">REPL is an abbreviation for Read Eval Print Loop, and it refers to a computer environment similar to a Windows console or a Unix/Linux shell in which a command is entered and the system responds with an output in an interactive mode. A REPL environment is included with Node.js or Node. It carries out the following functions: −</p>
+<ul>
+<li class="has-line-data" data-line-start="54" data-line-end="55"><strong>Read:</strong> reads the user’s input, parses it into a JavaScript data structure, and saves it in memory.</li>
+<li class="has-line-data" data-line-start="55" data-line-end="56"><strong>Eval:</strong> takes the data structure and evaluates it.</li>
+<li class="has-line-data" data-line-start="56" data-line-end="57"><strong>Print:</strong> The result is printed when you press the Print button.</li>
+<li class="has-line-data" data-line-start="57" data-line-end="59"><strong>Loops:</strong> Loops the preceding command until the user presses ctrl-c twice.</li>
+</ul>
+<p class="has-line-data" data-line-start="59" data-line-end="60">Node’s REPL feature is extremely useful for experimenting with Node.js code and debugging JavaScript code.</p>
+<p class="has-line-data" data-line-start="61" data-line-end="62"><strong>Commands for REPL:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="63" data-line-end="64">The current command is terminated by pressing ctrl + c.</li>
+<li class="has-line-data" data-line-start="64" data-line-end="65">The Node REPL is terminated by pressing ctrl + c twice.</li>
+<li class="has-line-data" data-line-start="65" data-line-end="66">The Node REPL is terminated by pressing ctrl + d.</li>
+<li class="has-line-data" data-line-start="66" data-line-end="67">Using the Up/Down keys: you can view the command history and modify previous commands.</li>
+<li class="has-line-data" data-line-start="67" data-line-end="68">tab Keys: list of current commands.</li>
+<li class="has-line-data" data-line-start="68" data-line-end="69">.help: list of all commands.</li>
+<li class="has-line-data" data-line-start="69" data-line-end="70">.break: multiline expression exit.</li>
+<li class="has-line-data" data-line-start="70" data-line-end="71">.clear: multiline expression exit</li>
+<li class="has-line-data" data-line-start="71" data-line-end="72">.save filename: This command saves the current Node REPL session to a file.</li>
+<li class="has-line-data" data-line-start="72" data-line-end="74">. load filename: In the current Node REPL session, load file content</li>
+</ol>
+<p class="has-line-data" data-line-start="74" data-line-end="75"><strong>Stopping REPL:</strong></p>
+<p class="has-line-data" data-line-start="76" data-line-end="77">you must use ctrl-c twice or ctrl-d once to exit the Node.js REPL.</p>
+<p class="has-line-data" data-line-start="78" data-line-end="79"><strong>Node.js NPM</strong></p>
+<p class="has-line-data" data-line-start="80" data-line-end="81">Node Package Manager (NPM) has two main features:</p>
+<ol>
+<li class="has-line-data" data-line-start="82" data-line-end="83">Online repositories for node.js packages/modules that can be searched on <a href="http://search.nodejs.org">search.nodejs.org</a></li>
+<li class="has-line-data" data-line-start="83" data-line-end="85">A command-line utility for installing Node.js packages, managing their versions, and managing their dependencies.</li>
+</ol>
+<p class="has-line-data" data-line-start="85" data-line-end="86"><strong>Installing Modules using NPM:</strong></p>
+<pre><code class="has-line-data" data-line-start="87" data-line-end="89">$ npm install &lt;Module Name&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="89" data-line-end="90"><strong>Uninstalling Modules using NPM:</strong></p>
+<pre><code class="has-line-data" data-line-start="91" data-line-end="93">$ npm uninstall &lt;Module Name&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="93" data-line-end="94"><strong>Update Modules using NPM:</strong></p>
+<pre><code class="has-line-data" data-line-start="95" data-line-end="97">$ npm update &lt;Module Name&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="97" data-line-end="98"><strong>Global vs Local Installation:</strong></p>
+<p class="has-line-data" data-line-start="99" data-line-end="100">NPM installs any dependency in the local mode by default. Local mode refers to the installation of the package in the node modules directory, which is located in the same folder as the Node application. Locally installed packages can be accessed using the require() method. For example, when we installed the express module, it created a node modules directory in the current directory where the express module was installed.</p>
+<p class="has-line-data" data-line-start="101" data-line-end="102">Packages and dependencies that have been installed globally are saved in the system directory. Such dependencies can be used in any node.js CLI function but cannot be imported directly using require() in a Node application. Let us now try installing the express module via global installation.</p>
+<p class="has-line-data" data-line-start="103" data-line-end="104"><strong>Using package.json:</strong></p>
+<p class="has-line-data" data-line-start="105" data-line-end="106">Package.json is found in the root directory of any Node application/module and is used to define the properties of a package. Let’s look at the package.json file for the express package, which is located in node modules/express/.</p>
+<p class="has-line-data" data-line-start="107" data-line-end="108"><strong>Attributes:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="109" data-line-end="110">json name:the package’s name</li>
+<li class="has-line-data" data-line-start="110" data-line-end="111">version:the package’s version</li>
+<li class="has-line-data" data-line-start="111" data-line-end="112">homepage: package’s homepage</li>
+<li class="has-line-data" data-line-start="112" data-line-end="113">description: description of the package</li>
+<li class="has-line-data" data-line-start="113" data-line-end="114">contributors: name of the contributors to the package</li>
+<li class="has-line-data" data-line-start="114" data-line-end="115">author: author of the package</li>
+<li class="has-line-data" data-line-start="115" data-line-end="116">dependencies: dependencies list. NPM will install all of the dependencies listed here in the package’s node module folder automatically.</li>
+<li class="has-line-data" data-line-start="116" data-line-end="117">repository: repository type and URL of the package</li>
+<li class="has-line-data" data-line-start="117" data-line-end="118">main: package entry point</li>
+<li class="has-line-data" data-line-start="118" data-line-end="120">Keywords: keywords</li>
+</ol>
+<p class="has-line-data" data-line-start="120" data-line-end="121"><strong>Concept of Node.js Callbacks</strong></p>
+<p class="has-line-data" data-line-start="122" data-line-end="123">What exactly is a callback?</p>
+<p class="has-line-data" data-line-start="124" data-line-end="125">A function’s asynchronous equivalent is a callback. When a task is completed, a callback function is invoked. Callbacks are extensively used by Node. Node’s APIs are all written in such a way that callbacks are supported.</p>
+<p class="has-line-data" data-line-start="126" data-line-end="127">For example, a function to read a file may begin reading the file and immediately return control to the execution environment so that the next instruction can be executed. When the file I/O is finished, it will call the callback function, passing it the file’s content as a parameter. As a result, there is no blocking or waiting for File I/O. Because of this, Node.js is highly scalable, as it can handle a large number of requests without waiting for any function to return results.</p>
+<p class="has-line-data" data-line-start="128" data-line-end="129"><strong>Blocking Code Example:</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="131" data-line-end="132"><strong>Create a text file named input.txt with the following content</strong></li>
+</ol>
+<p class="has-line-data" data-line-start="134" data-line-end="136">Tutorials Point is giving self learning content<br>
+to teach the world in simple and easy way!!!</p>
+<ol start="2">
+<li class="has-line-data" data-line-start="138" data-line-end="140"><strong>Create a js file named main.js with the following code</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="141" data-line-end="146">var fs = require(&quot;fs&quot;);
+var data = fs.readFileSync('input.txt');
+console.log(data.toString());
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<ol start="3">
+<li class="has-line-data" data-line-start="147" data-line-end="148"><strong>Now run the main.js to see the result</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="149" data-line-end="151">$ node main.js
+</code></pre>
+<ol start="4">
+<li class="has-line-data" data-line-start="152" data-line-end="153"><strong>Verify the Output.</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="154" data-line-end="158">Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+Program Ended
+</code></pre>
+<p class="has-line-data" data-line-start="159" data-line-end="160"><strong>Non-Blocking Code Example</strong></p>
+<ol>
+<li class="has-line-data" data-line-start="162" data-line-end="165"><strong>Create a text file named input.txt with the following content.</strong><br>
+Tutorials Point is giving self learning content<br>
+to teach the world in simple and easy way!!!</li>
+<li class="has-line-data" data-line-start="165" data-line-end="166"><strong>Update main.js to have the following code</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="167" data-line-end="174">var fs = require(&quot;fs&quot;);
+fs.readFile('input.txt', function (err, data) {
+if (err) return console.error(err);
+console.log(data.toString());
+});
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<ol start="3">
+<li class="has-line-data" data-line-start="174" data-line-end="175"><strong>Now run the main.js to see the result</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="176" data-line-end="178">$ node main.js
+</code></pre>
+<ol start="4">
+<li class="has-line-data" data-line-start="178" data-line-end="179"><strong>Verify the Output.</strong></li>
+</ol>
+<pre><code class="has-line-data" data-line-start="180" data-line-end="184">Program Ended
+Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+</code></pre>
+<p class="has-line-data" data-line-start="184" data-line-end="185">These two examples demonstrate the distinction between blocking and non-blocking calls.</p>
+<ol>
+<li class="has-line-data" data-line-start="186" data-line-end="187">The first example shows that the programme blocks until it reads the file and then proceeds to end the programme.</li>
+<li class="has-line-data" data-line-start="187" data-line-end="189">The second example shows that the programme does not wait for the file to be read and instead prints “Program Ended” while continuing to read the file without blocking.</li>
+</ol>
+<p class="has-line-data" data-line-start="189" data-line-end="190">As a result, a blocking programme executes in a very sequential manner. It is easier to implement the logic in programming, but non-blocking programmes do not execute in sequence.</p>
+<p class="has-line-data" data-line-start="191" data-line-end="192">If a programme must use data to be processed, it should do so within the same block to ensure sequential execution.</p>
+<p class="has-line-data" data-line-start="193" data-line-end="194"><strong>Node.js - Event Loop</strong></p>
+<p class="has-line-data" data-line-start="195" data-line-end="196">Although Node.js is a single-threaded application, it can support concurrency through the use of event and callbacks. Because Node.js APIs are asynchronous and single-threaded, they rely on async function calls to maintain concurrency. The observer pattern is used by Node. Node thread maintains an event loop, and whenever a task is completed, it fires the corresponding event, signalling the event-listener function to execute.</p>
+<p class="has-line-data" data-line-start="197" data-line-end="198"><strong>Event-Driven Programming</strong></p>
+<p class="has-line-data" data-line-start="199" data-line-end="200">Node.js uses events heavily and it is also one of the reasons why Node.js is pretty fast. Compared to other similar technologies. As soon as Node starts its server, it simply initiates its variables, declares functions and then simply waits for the event to occur. In an event-driven application, there is generally a main loop that listens for events, and then triggers a callback function when one of those events is detected.</p>
+<p class="has-line-data" data-line-start="201" data-line-end="202">Many objects in a Node, such as a network, emit events. When a peer connects to the server, a fs event is generated. When a file is opened, readStream generates an event. The instances of events are all objects that emit events.EventEmitter.</p>
+<p class="has-line-data" data-line-start="203" data-line-end="204"><strong>Example:</strong></p>
+<pre><code class="has-line-data" data-line-start="205" data-line-end="225">//Import events module
+var events = require('events');
+// Create an eventEmitter object
+var eventEmitter = new events.EventEmitter();
+// Create an event handler as follows
+var connectHandler = function connected() {
+console.log('connection succesful.');
+// Fire the data\_received event
+eventEmitter.emit('data\_received');
+}
+// Bind the connection event with the handler
+eventEmitter.on('connection', connectHandler);
+// Bind the data\_received event with the anonymous function
+eventEmitter.on('data\_received', function() {
+console.log('data received succesfully.');
+});
+// Fire the connection event
+eventEmitter.emit('connection');
+console.log(&quot;Program Ended.&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="225" data-line-end="226"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="227" data-line-end="231">connection successful.
+data received successfully.
+Program Ended.
+</code></pre>
+<p class="has-line-data" data-line-start="231" data-line-end="232"><strong>Node.js Buffers</strong></p>
+<p class="has-line-data" data-line-start="233" data-line-end="234">Although pure JavaScript is Unicode friendly, it is not for binary data. It is necessary to handle octet streams when dealing with TCP streams or the file system. Node provides the Buffer class, which provides instances for storing raw data in a manner similar to an array of integers, but corresponds to a raw memory allocation outside the V8 heap.</p>
+<p class="has-line-data" data-line-start="235" data-line-end="236">The buffer class is a global class that can be used in an application without the need to import the buffer module.</p>
+<p class="has-line-data" data-line-start="237" data-line-end="238"><strong>Making Buffers</strong></p>
+<p class="has-line-data" data-line-start="239" data-line-end="240">Node Buffer can be built in a number of different ways.</p>
+<p class="has-line-data" data-line-start="241" data-line-end="243"><strong>Method 1:</strong> To create an uninitiated Buffer of 10 octets, use <code>var buf = new Buffer(10);</code></p>
+<p class="has-line-data" data-line-start="244" data-line-end="245"><strong>Method 2:</strong> To create a Buffer from a given array, use <code>var buf = new Buffer([10, 20, 30, 40, 50]);</code></p>
+<p class="has-line-data" data-line-start="246" data-line-end="247"><strong>Method 3:</strong> To create a Buffer from a given string and optionally encoding type, use <code>var buf = new Buffer(&quot;Simply Easy Learning&quot;, &quot;utf-8);</code></p>
+<p class="has-line-data" data-line-start="248" data-line-end="249">Although “utf8” is the default encoding, you can also use <code>&quot;ascii&quot;, &quot;utf8&quot;, &quot;utf16le&quot;, &quot;ucs2&quot;, &quot;base64&quot;, or &quot;hex&quot;.</code></p>
+<p class="has-line-data" data-line-start="250" data-line-end="251"><strong>Return value:</strong></p>
+<p class="has-line-data" data-line-start="252" data-line-end="253">The number of octets written is returned by this method. If there is insufficient space in the buffer to fit the entire string, it will write a portion of it.</p>
+<p class="has-line-data" data-line-start="254" data-line-end="255"><strong>Syntax for Reading from Buffers</strong></p>
+<p class="has-line-data" data-line-start="256" data-line-end="258">The syntax for reading data from a Node Buffer is as follows:<br>
+<code>buf.toString ([encoding][, start][, end])</code></p>
+<p class="has-line-data" data-line-start="259" data-line-end="260"><strong>Return value:</strong></p>
+<p class="has-line-data" data-line-start="261" data-line-end="262">This method decodes and returns a string from buffer data encoded with the character set encoding specified.</p>
+<p class="has-line-data" data-line-start="263" data-line-end="264"><strong>Buffer to JSON Syntax Conversion</strong></p>
+<p class="has-line-data" data-line-start="265" data-line-end="266"><code>buf.toJSON</code>, which converts a Node Buffer into a JSON object ()</p>
+<p class="has-line-data" data-line-start="267" data-line-end="268"><strong>Return value:</strong></p>
+<p class="has-line-data" data-line-start="269" data-line-end="270">This method returns the Buffer instance as a JSON representation.</p>
+<p class="has-line-data" data-line-start="271" data-line-end="272"><strong>Syntax for Concatenating Buffers</strong></p>
+<p class="has-line-data" data-line-start="273" data-line-end="274"><code>Buffer.concat(list[, totalLength])</code> is the syntax for concatenating Node buffers to a single Node Buffer.</p>
+<p class="has-line-data" data-line-start="275" data-line-end="276"><strong>Compare Buffers:</strong></p>
+<p class="has-line-data" data-line-start="277" data-line-end="279">The method to compare two Node buffers is as follows:<br>
+<code>buf.compare(otherBuffer);</code></p>
+<p class="has-line-data" data-line-start="280" data-line-end="281"><strong>Syntax for Copying Buffers</strong></p>
+<p class="has-line-data" data-line-start="282" data-line-end="284">The following is the syntax for the method buf.copy, which is used to copy a node<br>
+<code>buffer (targetBuffer[, targetStart][, sourceStart][, sourceEnd])</code></p>
+<p class="has-line-data" data-line-start="285" data-line-end="286"><strong>Syntax of a Slice Buffer</strong></p>
+<p class="has-line-data" data-line-start="287" data-line-end="289">The method to get a sub-buffer of a node buffer is as follows:<br>
+<code>buf.slice ([start][, end])</code></p>
+<p class="has-line-data" data-line-start="290" data-line-end="291"><strong>Syntax for Buffer Length</strong></p>
+<p class="has-line-data" data-line-start="292" data-line-end="293">The method to get the size of a node buffer in bytes is as follows: buf.length;</p>
+<p class="has-line-data" data-line-start="294" data-line-end="295">Example:</p>
+<pre><code class="has-line-data" data-line-start="296" data-line-end="312">var buffer = new Buffer.alloc(26)
+for (var i = 0 ; i &lt; 26 ; i++) {
+buffer[i] = i + 97;
+}
+console.log(&quot;buffer 1:&quot;, buffer.toString());  
+console.log(buffer.toString('ascii'));       
+console.log(buffer.toString('ascii',0,10));   
+console.log(buffer.toString('utf8',0,5));    
+console.log(buffer.toString(undefined,0,10));
+var buffer2 = new Buffer.alloc(buffer.length);
+buffer.copy(buffer2); 
+console.log(&quot;buffer 2:&quot;, buffer2.toString());
+var json = buffer.toJSON(buffer);
+console.log(&quot;json output of buffer1:&quot;, json);
+console.log(buffer.slice(0,5).toString(), &quot;out of&quot;, buffer.length, &quot;allocations&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="313" data-line-end="314"><strong>Streams in Node.js</strong></p>
+<p class="has-line-data" data-line-start="315" data-line-end="316"><strong>What exactly are Streams?</strong></p>
+<p class="has-line-data" data-line-start="317" data-line-end="318">Streams are objects that allow you to continuously read data from a source and write data to a destination. There are four types of streams in Node.js.</p>
+<ol>
+<li class="has-line-data" data-line-start="319" data-line-end="320"><strong>Readable</strong> - Stream which is used for read operation.</li>
+<li class="has-line-data" data-line-start="320" data-line-end="321"><strong>Writable</strong> - Stream which is used for write operation.</li>
+<li class="has-line-data" data-line-start="321" data-line-end="322"><strong>Duplex</strong> - Stream which can be used for both read and write operation.</li>
+<li class="has-line-data" data-line-start="322" data-line-end="324"><strong>Transform</strong> - A type of duplex stream where the output is computed based on input</li>
+</ol>
+<p class="has-line-data" data-line-start="324" data-line-end="325">Stream is an EventEmitter instance that throws multiple events at different times. Some of the most commonly used events, for example, are</p>
+<ol>
+<li class="has-line-data" data-line-start="326" data-line-end="327"><strong>data</strong> − This event is fired when there is data is available to read.</li>
+<li class="has-line-data" data-line-start="327" data-line-end="328"><strong>end</strong> − This event is fired when there is no more data to read.</li>
+<li class="has-line-data" data-line-start="328" data-line-end="329"><strong>error</strong> − This event is fired when there is any error receiving or writing data.</li>
+<li class="has-line-data" data-line-start="329" data-line-end="331"><strong>finish</strong> − This event is fired when all the data has been flushed to underlying system</li>
+</ol>
+<p class="has-line-data" data-line-start="331" data-line-end="332"><strong>Reading from a Stream:</strong></p>
+<p class="has-line-data" data-line-start="333" data-line-end="334">Make a text file called input.txt with the following contents:</p>
+<p class="has-line-data" data-line-start="335" data-line-end="337">Tutorials Point is giving self learning content<br>
+to teach the world in simple and easy way!!!</p>
+<p class="has-line-data" data-line-start="338" data-line-end="339">Create a js file called main.js and paste the following code into it.</p>
+<pre><code class="has-line-data" data-line-start="340" data-line-end="358">var fs = require(&quot;fs&quot;);
+var data = '';
+// Create a readable stream
+var readerStream = fs.createReadStream('input.txt');
+// Set the encoding to be utf8.
+readerStream.setEncoding('UTF8');
+// Handle stream events --&gt; data, end, and error
+readerStream.on('data', function(chunk) {
+data += chunk;
+});
+readerStream.on('end',function() {
+console.log(data);
+});
+readerStream.on('error', function(err) {
+console.log(err.stack);
+});
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="358" data-line-end="359"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="360" data-line-end="364">Program Ended
+Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+</code></pre>
+<p class="has-line-data" data-line-start="364" data-line-end="365"><strong>Writing to a Stream:</strong></p>
+<p class="has-line-data" data-line-start="366" data-line-end="367">Create a js file called main.js and paste the following code into it.</p>
+<pre><code class="has-line-data" data-line-start="368" data-line-end="385">var fs = require(&quot;fs&quot;);
+var data = 'Simply Easy Learning';
+// Create a writable stream
+var writerStream = fs.createWriteStream('output.txt');
+// Write the data to stream with encoding to be utf8
+writerStream.write(data,'UTF8');
+// Mark the end of file
+writerStream.end();
+// Handle stream events --&gt; finish, and error
+writerStream.on('finish', function() {
+console.log(&quot;Write completed.&quot;);
+});
+writerStream.on('error', function(err) {
+console.log(err.stack);
+});
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="385" data-line-end="386"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="387" data-line-end="390">Program Ended
+Write completed.
+</code></pre>
+<p class="has-line-data" data-line-start="390" data-line-end="391">Now, open the output.txt file that was created in your current directory; it should contain the following information.</p>
+<pre><code class="has-line-data" data-line-start="392" data-line-end="394">Simply Easy Learning
+</code></pre>
+<p class="has-line-data" data-line-start="394" data-line-end="395"><strong>Piping the Streams:</strong></p>
+<p class="has-line-data" data-line-start="396" data-line-end="397">Piping is a mechanism that allows us to use the output of one stream as the input of another. It is typically used to retrieve data from one stream and pass the output of that stream to another. There are no restrictions on piping operations. Now we’ll look at a piping example that reads from one file and writes it to another.</p>
+<p class="has-line-data" data-line-start="398" data-line-end="399">Create a js file called main.js and paste the following code into it.</p>
+<pre><code class="has-line-data" data-line-start="400" data-line-end="410">var fs = require(&quot;fs&quot;);
+// Create a readable stream
+var readerStream = fs.createReadStream('input.txt');
+// Create a writable stream
+var writerStream = fs.createWriteStream('output.txt');
+// Pipe the read and write operations
+// read input.txt and write data to output.txt
+readerStream.pipe(writerStream);
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="410" data-line-end="411"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="412" data-line-end="414">Program Ended
+</code></pre>
+<p class="has-line-data" data-line-start="414" data-line-end="415">open the output.txt file that was created in your current directory; it should contain the following:</p>
+<pre><code class="has-line-data" data-line-start="416" data-line-end="419">Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+</code></pre>
+<p class="has-line-data" data-line-start="419" data-line-end="420"><strong>Chaining the Streams:</strong></p>
+<p class="has-line-data" data-line-start="421" data-line-end="422">Chaining is a mechanism for connecting the output of one stream to the output of another, resulting in a chain of multiple stream operations. It is typically associated with piping operations. Now we’ll use piping and chaining to compress and then decompress a file.</p>
+<p class="has-line-data" data-line-start="423" data-line-end="424">Create a js file called main.js and paste the following code into it.</p>
+<pre><code class="has-line-data" data-line-start="425" data-line-end="433">var fs = require(&quot;fs&quot;);
+var zlib = require('zlib');
+// Compress the file input.txt to input.txt.gz
+fs.createReadStream('input.txt')
+.pipe(zlib.createGzip())
+.pipe(fs.createWriteStream('input.txt.gz'));
+console.log(&quot;File Compressed.&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="433" data-line-end="434"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="435" data-line-end="437">File Compressed
+</code></pre>
+<p class="has-line-data" data-line-start="437" data-line-end="438">You’ll notice that input.txt has been compressed, and a file called input.txt.gz has been created in the current directory. Now, try decompressing the same file with the following code:</p>
+<pre><code class="has-line-data" data-line-start="439" data-line-end="447">var fs = require(&quot;fs&quot;);
+var zlib = require('zlib');
+// Decompress the file input.txt.gz to input.txt
+fs.createReadStream('input.txt.gz')
+.pipe(zlib.createGunzip())
+.pipe(fs.createWriteStream('input.txt'));
+console.log(&quot;File Decompressed.&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="447" data-line-end="448"><strong>Output:</strong></p>
+<pre><code class="has-line-data" data-line-start="449" data-line-end="451">File Decompressed
+</code></pre>
+<p class="has-line-data" data-line-start="451" data-line-end="452"><strong>Node.js- File system</strong></p>
+<p class="has-line-data" data-line-start="453" data-line-end="454">Node implements File I/O using simple wrappers around standard POSIX functions.</p>
+<p class="has-line-data" data-line-start="455" data-line-end="456"><strong>Syntax:</strong> <code>var fs = require(&quot;fs&quot;)</code></p>
+<p class="has-line-data" data-line-start="457" data-line-end="458"><strong>Synchronous vs Asynchronous:</strong></p>
+<p class="has-line-data" data-line-start="459" data-line-end="460">Every method in the fs module has both synchronous and asynchronous implementations. Asynchronous methods use the last parameter as the callback function for the completion function and the first parameter of the callback function as error. It is preferable to use an asynchronous method over a synchronous method because the former never blocks a programme during execution, whereas the latter does.</p>
+<p class="has-line-data" data-line-start="461" data-line-end="462"><strong>Example</strong></p>
+<p class="has-line-data" data-line-start="463" data-line-end="464">Create a text file named <strong>input.txt</strong> with the following content</p>
+<p class="has-line-data" data-line-start="465" data-line-end="467">Tutorials Point is giving self learning content<br>
+to teach the world in simple and easy way!!!</p>
+<p class="has-line-data" data-line-start="468" data-line-end="469">Let us create a js file named <strong>main.js</strong> with the following code</p>
+<pre><code class="has-line-data" data-line-start="470" data-line-end="483">var fs = require(&quot;fs&quot;);
+// Asynchronous read
+fs.readFile('input.txt', function (err, data) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;Asynchronous read: &quot; + data.toString());
+});
+// Synchronous read
+var data = fs.readFileSync('input.txt');
+console.log(&quot;Synchronous read: &quot; + data.toString());
+console.log(&quot;Program Ended&quot;);
+</code></pre>
+<p class="has-line-data" data-line-start="483" data-line-end="484">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="485" data-line-end="487">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="488" data-line-end="489"><strong>Verify the Output.</strong></p>
+<pre><code class="has-line-data" data-line-start="490" data-line-end="496">Synchronous read: Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+Program Ended
+Asynchronous read: Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+</code></pre>
+<p class="has-line-data" data-line-start="496" data-line-end="497"><strong>Open a File</strong></p>
+<p class="has-line-data" data-line-start="498" data-line-end="500"><strong>Syntax</strong><br>
+<code>fs.open(path, flags[, mode], callback)</code></p>
+<p class="has-line-data" data-line-start="501" data-line-end="502"><strong>Parameters</strong></p>
+<p class="has-line-data" data-line-start="503" data-line-end="509"><strong>path</strong> - This is the string having file name including path.<br>
+<strong>flags</strong> - Flags indicate the behavior of the file to be opened. All possible values have<br>
+been mentioned below.<br>
+<strong>mode</strong> - It sets the file mode (permission and sticky bits), but only if the file was<br>
+created. It defaults to 0666, readable and writeable.<br>
+<strong>callback</strong> - This is the callback function which gets two arguments (err, fd).</p>
+<p class="has-line-data" data-line-start="510" data-line-end="511"><strong>Flags</strong></p>
+<p class="has-line-data" data-line-start="512" data-line-end="513">Flags for read/write operations are</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="text-align:left">1</th>
+<th style="text-align:left"><strong>r</strong>&lt;br&gt;Open file for reading. An exception occurs if the file does not exist.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>r+</strong>&lt;br&gt;Open file for reading and writing. An exception occurs if the file does not exist.</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>rs</strong>&lt;br&gt;Open file for reading in synchronous mode.</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>rs+</strong>&lt;br&gt;Open file for reading and writing, asking the OS to open it synchronously. See notes&lt;br&gt;for ‘rs’ about using this with caution.</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>w</strong>&lt;br&gt;Open file for writing. The file is created (if it does not exist) or truncated (if it exists).</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>wx</strong>&lt;br&gt;Like ‘w’ but fails if the path exists.</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>w+</strong>&lt;br&gt;Open file for reading and writing. The file is created (if it does not exist) or truncated&lt;br&gt;(if it exists).</td>
+</tr>
+<tr>
+<td style="text-align:left">8</td>
+<td style="text-align:left"><strong>wx+</strong>&lt;br&gt;Like ‘w+’ but fails if path exists.</td>
+</tr>
+<tr>
+<td style="text-align:left">9</td>
+<td style="text-align:left"><strong>a</strong>&lt;br&gt;Open file for appending. The file is created if it does not exist.</td>
+</tr>
+<tr>
+<td style="text-align:left">10</td>
+<td style="text-align:left"><strong>ax</strong>&lt;br&gt;Like ‘a’ but fails if the path exists.</td>
+</tr>
+<tr>
+<td style="text-align:left">11</td>
+<td style="text-align:left"><strong>a+</strong>&lt;br&gt;Open file for reading and appending. The file is created if it does not exist.</td>
+</tr>
+<tr>
+<td style="text-align:left">12</td>
+<td style="text-align:left"><strong>ax+</strong>&lt;br&gt;Like ‘a+’ but fails if the the path exists.</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="527" data-line-end="529"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code to open a file input.txt for reading and writing.</p>
+<pre><code class="has-line-data" data-line-start="530" data-line-end="540">var fs = require(&quot;fs&quot;);
+// Asynchronous - Opening File
+console.log(&quot;Going to open file!&quot;);
+fs.open('input.txt', 'r+', function(err, fd) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;File opened successfully!&quot;);
+});
+</code></pre>
+<p class="has-line-data" data-line-start="540" data-line-end="541">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="542" data-line-end="544">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="544" data-line-end="545">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="546" data-line-end="549">Going to open file!
+File opened successfully!
+</code></pre>
+<p class="has-line-data" data-line-start="549" data-line-end="550"><strong>Get File Information</strong></p>
+<p class="has-line-data" data-line-start="551" data-line-end="553"><strong>Syntax</strong><br>
+<code>fs.stat(path, callback)</code></p>
+<p class="has-line-data" data-line-start="554" data-line-end="556"><strong>Parameters</strong>:<br>
+<strong>path</strong> - This is the string containing the file name including the path.</p>
+<p class="has-line-data" data-line-start="557" data-line-end="559"><strong>callback</strong> - This is the callback function which gets two arguments (err, stats) where<br>
+<strong>stats</strong> is an object of fs.Stats type.</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="text-align:left"><strong><a href="http://Sr.No">Sr.No</a>.</strong></th>
+<th style="text-align:left"><strong>Method &amp; Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>stats.isFile()</strong>&lt;br&gt;Returns true if file type of a simple file.</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>stats.isDirectory()</strong>&lt;br&gt;Returns true if file type of a directory.</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>stats.isBlockDevice()</strong>&lt;br&gt;Returns true if file type of a block device.</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>stats.isCharacterDevice()</strong>&lt;br&gt;Returns true if file type of a character device.</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>stats.isSymbolicLink()</strong>&lt;br&gt;Returns true if file type of a symbolic link.</td>
+</tr>
+<tr>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>stats.isFIFO()</strong>&lt;br&gt;Returns true if file type of a FIFO.</td>
+</tr>
+<tr>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>stats.isSocket()</strong>&lt;br&gt;Returns true if file type of asocket.</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="571" data-line-end="573"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> with the following code.</p>
+<pre><code class="has-line-data" data-line-start="574" data-line-end="587">var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to get file info!&quot;);
+fs.stat('input.txt', function (err, stats) {
+if (err) {
+return console.error(err);
+}
+console.log(stats);
+console.log(&quot;Got file info successfully!&quot;);
+// Check file type
+console.log(&quot;isFile ? &quot; + stats.isFile());
+console.log(&quot;isDirectory ? &quot; + stats.isDirectory());
+});
+</code></pre>
+<p class="has-line-data" data-line-start="587" data-line-end="588">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="589" data-line-end="591">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="591" data-line-end="592">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="593" data-line-end="613">Going to get file info!
+{
+dev: 1792,
+mode: 33188,
+nlink: 1,
+uid: 48,
+gid: 48,
+rdev: 0,
+blksize: 4096,
+ino: 4318127,
+size: 97,
+blocks: 8,
+atime: Sun Mar 22 2015 13:40:00 GMT-0500 (CDT),
+mtime: Sun Mar 22 2015 13:40:57 GMT-0500 (CDT),
+ctime: Sun Mar 22 2015 13:40:57 GMT-0500 (CDT)
+}
+Got file info successfully!
+isFile ? true
+isDirectory ? false
+</code></pre>
+<p class="has-line-data" data-line-start="613" data-line-end="616"><strong>Writing a File</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.writeFile(filename, data[, options], callback)</code></p>
+<p class="has-line-data" data-line-start="617" data-line-end="619">This method will over-write the file if the file already exists. If you want to write into an existing<br>
+file then you should use another method available.</p>
+<p class="has-line-data" data-line-start="620" data-line-end="627"><strong>Parameters<br>
+path</strong> - This is the string having the file name including path.<br>
+<strong>data</strong> - This is the String or Buffer to be written into the file.<br>
+<strong>options</strong> - The third parameter is an object which will hold {encoding, mode, flag}. By<br>
+default. encoding is utf8, mode is octal value 0666. and flag is ‘w’<br>
+<strong>callback</strong> - This is the callback function which gets a single parameter err that returns<br>
+an error in case of any writing error.</p>
+<p class="has-line-data" data-line-start="628" data-line-end="629"><strong>Example</strong></p>
+<pre><code class="has-line-data" data-line-start="630" data-line-end="647">Let us create a js file named **main.js** having the following code 
+var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to write into existing file&quot;);
+fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;Data written successfully!&quot;);
+console.log(&quot;Let's read newly written data&quot;);
+fs.readFile('input.txt', function (err, data) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;Asynchronous read: &quot; + data.toString());
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="647" data-line-end="648">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="649" data-line-end="651">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="651" data-line-end="652">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="653" data-line-end="658">Going to write into existing file
+Data written successfully!
+Let's read newly written data
+Asynchronous read: Simply Easy Learning!
+</code></pre>
+<p class="has-line-data" data-line-start="658" data-line-end="661"><strong>Reading a File</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.read(fd, buffer, offset, length, position, callback)</code></p>
+<p class="has-line-data" data-line-start="662" data-line-end="663">This method will use file descriptor to read the file. If you want to read the file directly using the file name, then you should use another method available.</p>
+<p class="has-line-data" data-line-start="664" data-line-end="665"><strong>Parameters</strong></p>
+<p class="has-line-data" data-line-start="666" data-line-end="674"><strong>fd</strong> - This is the file descriptor returned by fs.open().<br>
+<strong>buffer</strong> - This is the buffer that the data will be written to.<br>
+<strong>offset</strong> - This is the offset in the buffer to start writing at.<br>
+<strong>length</strong> - This is an integer specifying the number of bytes to read.<br>
+<strong>position</strong> - This is an integer specifying where to begin reading from in the file. If<br>
+position is null, data will be read from the current file position.<br>
+<strong>callback</strong> - This is the callback function which gets the three arguments, (err,<br>
+bytesRead, buffer).</p>
+<p class="has-line-data" data-line-start="675" data-line-end="676"><strong>Example</strong></p>
+<pre><code class="has-line-data" data-line-start="677" data-line-end="699">Let us create a js file named **main.js** with the following code 
+var fs = require(&quot;fs&quot;);
+var buf = new Buffer(1024);
+console.log(&quot;Going to open an existing file&quot;);
+fs.open('input.txt', 'r+', function(err, fd) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;File opened successfully!&quot;);
+console.log(&quot;Going to read the file&quot;);
+fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
+if (err){
+console.log(err);
+}
+console.log(bytes + &quot; bytes read&quot;);
+// Print only read bytes to avoid junk.
+if(bytes &gt; 0){
+console.log(buf.slice(0, bytes).toString());
+}
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="699" data-line-end="700">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="701" data-line-end="703">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="703" data-line-end="704">Verify the Output</p>
+<pre><code class="has-line-data" data-line-start="705" data-line-end="712">Going to open an existing file
+File opened successfully!
+Going to read the file
+97 bytes read
+Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+</code></pre>
+<p class="has-line-data" data-line-start="713" data-line-end="716"><strong>Closing a File</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.close(fd, callback)</code></p>
+<p class="has-line-data" data-line-start="717" data-line-end="721"><strong>Parameters</strong><br>
+<strong>fd</strong> - This is the file descriptor returned by file fs.open() method.<br>
+<strong>callback</strong> - This is the callback function No arguments other than a possible exception<br>
+are given to the completion callback.</p>
+<p class="has-line-data" data-line-start="722" data-line-end="724"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="725" data-line-end="752">var fs = require(&quot;fs&quot;);
+var buf = new Buffer(1024);
+console.log(&quot;Going to open an existing file&quot;);
+fs.open('input.txt', 'r+', function(err, fd) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;File opened successfully!&quot;);
+console.log(&quot;Going to read the file&quot;);
+fs.read(fd, buf, 0, buf.length, 0, function(err, bytes) {
+if (err) {
+console.log(err);
+}
+// Print only read bytes to avoid junk.
+if(bytes &gt; 0) {
+console.log(buf.slice(0, bytes).toString());
+}
+// Close the opened file.
+fs.close(fd, function(err) {
+if (err) {
+console.log(err);
+}
+console.log(&quot;File closed successfully.&quot;);
+});
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="752" data-line-end="753">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="754" data-line-end="756">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="756" data-line-end="757">Verify the Output</p>
+<pre><code class="has-line-data" data-line-start="758" data-line-end="765">Going to open an existing file
+File opened successfully!
+Going to read the file
+Tutorials Point is giving self learning content
+to teach the world in simple and easy way!!!!!
+File closed successfully.
+</code></pre>
+<p class="has-line-data" data-line-start="766" data-line-end="769"><strong>Truncate a File</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.ftruncate(fd, len, callback)</code></p>
+<p class="has-line-data" data-line-start="770" data-line-end="771"><strong>Parameters</strong></p>
+<p class="has-line-data" data-line-start="772" data-line-end="776"><strong>fd</strong> - This is the file descriptor returned by fs.open().<br>
+<strong>len</strong> - This is the length of the file after which the file will be truncated.<br>
+<strong>callback</strong> - This is the callback function No arguments other than a possible exception<br>
+are given to the completion callback.</p>
+<p class="has-line-data" data-line-start="777" data-line-end="779"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="780" data-line-end="815">var fs = require(&quot;fs&quot;);
+var buf = new Buffer(1024);
+console.log(&quot;Going to open an existing file&quot;);
+fs.open('input.txt', 'r+', function(err, fd) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;File opened successfully!&quot;);
+console.log(&quot;Going to truncate the file after 10 bytes&quot;);
+// Truncate the opened file.
+fs.ftruncate(fd, 10, function(err) {
+if (err) {
+console.log(err);
+}
+console.log(&quot;File truncated successfully.&quot;);
+console.log(&quot;Going to read the same file&quot;);
+fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
+if (err) {
+console.log(err);
+}
+// Print only read bytes to avoid junk.
+if(bytes &gt; 0) {
+console.log(buf.slice(0, bytes).toString());
+}
+// Close the opened file.
+fs.close(fd, function(err) {
+if (err) {
+console.log(err);
+}
+console.log(&quot;File closed successfully.&quot;);
+});
+});
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="815" data-line-end="816">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="817" data-line-end="819">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="819" data-line-end="820">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="821" data-line-end="829">Going to open an existing file
+File opened successfully!
+Going to truncate the file after 10 bytes
+File truncated successfully.
+Going to read the same file
+Tutorials
+File closed successfully.
+</code></pre>
+<p class="has-line-data" data-line-start="830" data-line-end="833"><strong>Delete a File</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.unlink(path, callback)</code></p>
+<p class="has-line-data" data-line-start="834" data-line-end="838"><strong>Parameters</strong><br>
+<strong>path</strong> - This is the file name including path.<br>
+<strong>callback</strong> - This is the callback function No arguments other than a possible exception<br>
+are given to the completion callback</p>
+<p class="has-line-data" data-line-start="839" data-line-end="841"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="842" data-line-end="851">var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to delete an existing file&quot;);
+fs.unlink('input.txt', function(err) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;File deleted successfully!&quot;);
+});
+</code></pre>
+<p class="has-line-data" data-line-start="851" data-line-end="852">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="853" data-line-end="855">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="856" data-line-end="857">Verify the Output:</p>
+<pre><code class="has-line-data" data-line-start="858" data-line-end="861">Going to delete an existing file
+File deleted successfully
+</code></pre>
+<p class="has-line-data" data-line-start="861" data-line-end="864"><strong>Create a Directory</strong><br>
+Syntax<br>
+<code>fs.mkdir(path[, mode], callback)</code></p>
+<p class="has-line-data" data-line-start="865" data-line-end="866">Parameters</p>
+<p class="has-line-data" data-line-start="867" data-line-end="871"><strong>path</strong> - This is the directory name including path.<br>
+<strong>mode</strong> - This is the directory permission to be set. Defaults to 0777.<br>
+<strong>callback</strong> - This is the callback function No arguments other than a possible exception<br>
+are given to the completion callback.</p>
+<p class="has-line-data" data-line-start="872" data-line-end="874"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="875" data-line-end="884">var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to create directory /tmp/test&quot;);
+fs.mkdir('/tmp/test',function(err) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;Directory created successfully!&quot;);
+});
+</code></pre>
+<p class="has-line-data" data-line-start="884" data-line-end="885">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="886" data-line-end="888">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="888" data-line-end="889">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="890" data-line-end="893">Going to create directory /tmp/test
+Directory created successfully!
+</code></pre>
+<p class="has-line-data" data-line-start="893" data-line-end="896"><strong>Read a Directory</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.readdir(path, callback)</code></p>
+<p class="has-line-data" data-line-start="897" data-line-end="898"><strong>Parameters</strong></p>
+<p class="has-line-data" data-line-start="899" data-line-end="902"><strong>path</strong> - This is the directory name including path.<br>
+<strong>callback</strong> - This is the callback function which gets two arguments (err, files) where files<br>
+is an array of the names of the files in the directory excluding ‘.’ and ‘…’.</p>
+<p class="has-line-data" data-line-start="903" data-line-end="905"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="906" data-line-end="917">var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to read directory /tmp&quot;);
+fs.readdir(&quot;/tmp/&quot;,function(err, files) {
+if (err) {
+return console.error(err);
+}
+files.forEach( function (file) {
+console.log( file );
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="917" data-line-end="918">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="919" data-line-end="921">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="921" data-line-end="922">Verify the Output:</p>
+<pre><code class="has-line-data" data-line-start="923" data-line-end="931">Going to read directory /tmp
+ccmzx99o.out
+ccyCSbkF.out
+employee.ser
+hsperfdata\_apache
+test
+test.txt
+</code></pre>
+<p class="has-line-data" data-line-start="931" data-line-end="934"><strong>Remove a Directory</strong><br>
+<strong>Syntax</strong><br>
+<code>fs.rmdir(path, callback)</code></p>
+<p class="has-line-data" data-line-start="935" data-line-end="939"><strong>Parameters</strong><br>
+<strong>path</strong> - This is the directory name including path.<br>
+<strong>callback</strong> - This is the callback function No arguments other than a possible exception<br>
+are given to the completion callback.</p>
+<p class="has-line-data" data-line-start="940" data-line-end="942"><strong>Example</strong><br>
+Let us create a js file named <strong>main.js</strong> having the following code</p>
+<pre><code class="has-line-data" data-line-start="943" data-line-end="960">var fs = require(&quot;fs&quot;);
+console.log(&quot;Going to delete directory /tmp/test&quot;);
+fs.rmdir(&quot;/tmp/test&quot;,function(err) {
+if (err) {
+return console.error(err);
+}
+console.log(&quot;Going to read directory /tmp&quot;);
+fs.readdir(&quot;/tmp/&quot;,function(err, files) {
+if (err) {
+return console.error(err);
+}
+files.forEach( function (file) {
+console.log( file );
+});
+});
+});
+</code></pre>
+<p class="has-line-data" data-line-start="960" data-line-end="961">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="962" data-line-end="964">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="964" data-line-end="965">Verify the Output</p>
+<pre><code class="has-line-data" data-line-start="966" data-line-end="973">Going to read directory /tmp
+ccmzx99o.out
+ccyCSbkF.out
+employee.ser
+hsperfdata\_apache
+test.txt
+</code></pre>
+<p class="has-line-data" data-line-start="974" data-line-end="975"><strong>Node.js - Global Objects</strong></p>
+<p class="has-line-data" data-line-start="976" data-line-end="977">Global objects in Node.js are global in nature and are available in all modules. These objects do not need to be included in our application; instead, they can be used directly. Modules, functions, strings, and the object itself are examples of these objects.</p>
+<p class="has-line-data" data-line-start="978" data-line-end="979"><strong>__filename</strong></p>
+<p class="has-line-data" data-line-start="981" data-line-end="982">The <strong>__filename</strong> represents the filename of the code being executed. This is the resolved absolute path of this code file. For a main program, this is not necessarily the same filename used in the command line. The value inside a module is the path to that module file.</p>
+<p class="has-line-data" data-line-start="983" data-line-end="987"><strong>Example</strong><br>
+Create a js file named main.js with the following code<br>
+// Let’s try to print the value of __filename<br>
+<code>console.log( \_\_filename );</code></p>
+<p class="has-line-data" data-line-start="988" data-line-end="990">Now run the main.js to see the result<br>
+<code>$ node main.js</code></p>
+<p class="has-line-data" data-line-start="991" data-line-end="993">Based on the location of your program, it will print the main file name as follows<br>
+<code>/web/com/1427091028\_21099/main.js</code></p>
+<p class="has-line-data" data-line-start="994" data-line-end="995"><strong>__dirname</strong></p>
+<p class="has-line-data" data-line-start="997" data-line-end="998">The <strong>__dirname</strong> represents the name of the directory that the currently executing script resides in.</p>
+<p class="has-line-data" data-line-start="999" data-line-end="1003"><strong>Example</strong><br>
+Create a js file named main.js with the following code<br>
+// Let’s try to print the value of __dirname<br>
+<code>console.log( \_\_dirname );</code></p>
+<p class="has-line-data" data-line-start="1004" data-line-end="1006">Now run the main.js to see the result<br>
+<code>$ node main.js</code></p>
+<p class="has-line-data" data-line-start="1007" data-line-end="1009">Based on the location of your program, it will print current directory name as follows<br>
+<code>/web/com/1427091028\_21099</code></p>
+<p class="has-line-data" data-line-start="1010" data-line-end="1011"><strong>setTimeout(cb, ms)</strong></p>
+<p class="has-line-data" data-line-start="1013" data-line-end="1015">The <strong>setTimeout(cb, ms)</strong> global function is used to run callback cb after at least ms<br>
+milliseconds. The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days. This function returns an opaque value that represents the timer which can be used to clear the timer.</p>
+<p class="has-line-data" data-line-start="1016" data-line-end="1018"><strong>Example</strong><br>
+Create a js file named main.js with the following code</p>
+<pre><code class="has-line-data" data-line-start="1019" data-line-end="1025">function printHello() {
+console.log( &quot;Hello, World!&quot;);
+}
+// Now call above function after 2 seconds
+setTimeout(printHello, 2000);
+</code></pre>
+<p class="has-line-data" data-line-start="1025" data-line-end="1026">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="1027" data-line-end="1029">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="1029" data-line-end="1030">Verify the output is printed after a little delay.</p>
+<pre><code class="has-line-data" data-line-start="1031" data-line-end="1033">Hello, World!
+</code></pre>
+<p class="has-line-data" data-line-start="1034" data-line-end="1035"><strong>clearTimeout(t)</strong></p>
+<p class="has-line-data" data-line-start="1036" data-line-end="1038">The <strong>clearTimeout(t)</strong> global function is used to stop a timer that was previously created with<br>
+setTimeout(). Here <strong>t</strong> is the timer returned by the setTimeout() function.</p>
+<p class="has-line-data" data-line-start="1039" data-line-end="1041"><strong>Example</strong><br>
+Create a js file named main.js with the following code</p>
+<pre><code class="has-line-data" data-line-start="1042" data-line-end="1051">function printHello() {
+console.log( &quot;Hello, World!&quot;);
+}
+// Now call above function after 2 seconds
+var t = setTimeout(printHello, 2000);
+Live Demo  
+// Now clear the timer
+clearTimeout(t);
+</code></pre>
+<p class="has-line-data" data-line-start="1051" data-line-end="1052">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="1053" data-line-end="1055">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="1055" data-line-end="1056">Verify the output where you will not find anything printed.</p>
+<p class="has-line-data" data-line-start="1057" data-line-end="1058"><strong>setInterval(cb, ms)</strong></p>
+<p class="has-line-data" data-line-start="1059" data-line-end="1061">The <strong>setInterval(cb, ms)</strong> global function is used to run callback cb repeatedly after at least ms milliseconds. The actual delay depends on external factors like OS timer granularity and system load. A timer cannot span more than 24.8 days.<br>
+This function returns an opaque value that represents the timer which can be used to clear the timer using the function <strong>clearInterval(t)</strong>.</p>
+<p class="has-line-data" data-line-start="1062" data-line-end="1064"><strong>Example</strong><br>
+Create a js file named main.js with the following code</p>
+<pre><code class="has-line-data" data-line-start="1065" data-line-end="1071">function printHello() {
+console.log( &quot;Hello, World!&quot;);
+}
+// Now call above function after 2 seconds
+setInterval(printHello, 2000);
+</code></pre>
+<p class="has-line-data" data-line-start="1071" data-line-end="1072">Now run the main.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="1073" data-line-end="1075">$ node main.js
+</code></pre>
+<p class="has-line-data" data-line-start="1075" data-line-end="1076">The above program will execute printHello() after every 2 second.</p>
+<p class="has-line-data" data-line-start="1077" data-line-end="1078"><strong>Global Objects</strong></p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="text-align:left"><strong><a href="http://Sr.No">Sr.No</a>.</strong></th>
+<th style="text-align:left"><strong>Module Name &amp; Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>Console</strong>&lt;br&gt;Used to print information on stdout and stderr.</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">&lt;p&gt;<strong>Process</strong>&lt;/p&gt;&lt;p&gt;Used to get information on current process. Provides multiple events related to&lt;br&gt;process activities.&lt;/p&gt;</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="1084" data-line-end="1085"><strong>Node.js - Utility Modules</strong></p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="text-align:left"><strong><a href="http://Sr.No">Sr.No</a>.</strong></th>
+<th style="text-align:left"><strong>Module Name &amp; Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">OS Module&lt;br&gt;Provides basic operating-system related utility functions.</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">Path Module&lt;br&gt;Provides utilities for handling and transforming file paths.</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">Net Module&lt;br&gt;Provides both servers and clients as streams. Acts as a network wrapper.</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">DNS Module&lt;br&gt;Provides functions to do actual DNS lookup as well as to use underlying operating&lt;br&gt;system name resolution functionalities.</td>
+</tr>
+<tr>
+<td style="text-align:left">5</td>
+<td style="text-align:left">Domain Module&lt;br&gt;Provides ways to handle multiple different I/O operations as a single group.</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="1094" data-line-end="1095"><strong>Node.js - Web Module</strong></p>
+<p class="has-line-data" data-line-start="1096" data-line-end="1097"><strong>What is a Web Server?</strong></p>
+<p class="has-line-data" data-line-start="1098" data-line-end="1099">A Web Server is a software application which handles HTTP requests sent by the HTTP client, like web browsers, and returns web pages in response to the clients. Web servers usually deliver html documents along with images, style sheets, and scripts.</p>
+<p class="has-line-data" data-line-start="1100" data-line-end="1101">Apache web server is one of the most commonly used web servers. It is an open source project.</p>
+<p class="has-line-data" data-line-start="1102" data-line-end="1104"><strong>Web Application Architecture</strong><br>
+A Web application is usually divided into four layers</p>
+<ul>
+<li class="has-line-data" data-line-start="1105" data-line-end="1107"><strong>Client</strong> - This layer consists of web browsers, mobile browsers or applications which<br>
+can make HTTP requests to the web server.</li>
+<li class="has-line-data" data-line-start="1107" data-line-end="1109"><strong>Server</strong> - This layer has the Web server which can intercept the requests made by the<br>
+clients and pass them the response.</li>
+<li class="has-line-data" data-line-start="1109" data-line-end="1112"><strong>Business</strong> - This layer contains the application server which is utilized by the web<br>
+server to do the required processing. This layer interacts with the data layer via the<br>
+database or some external programs.</li>
+<li class="has-line-data" data-line-start="1112" data-line-end="1114"><strong>Data</strong> - This layer contains the databases or any other source of data.</li>
+</ul>
+<p class="has-line-data" data-line-start="1114" data-line-end="1115"><strong>Creating a Web Server using Node</strong></p>
+<p class="has-line-data" data-line-start="1117" data-line-end="1118">Node.js provides an <strong>http</strong> module which can be used to create an HTTP client of a server. Following is the bare minimum structure of the HTTP server which listens at 8081 port.</p>
+<p class="has-line-data" data-line-start="1119" data-line-end="1121">Create a js file named server.js<br>
+<strong>File: server.js</strong></p>
+<pre><code class="has-line-data" data-line-start="1122" data-line-end="1153">var http = require('http');
+var fs = require('fs');
+var url = require('url');
+// Create a server
+http.createServer( function (request, response) {
+// Parse the request containing file name
+var pathname = url.parse(request.url).pathname;
+// Print the name of the file for which request is made.
+console.log(&quot;Request for &quot; + pathname + &quot; received.&quot;);
+// Read the requested file content from file system
+fs.readFile(pathname.substr(1), function (err, data) {
+if (err) {
+console.log(err);
+// HTTP Status: 404 : NOT FOUND
+// Content Type: text/plain
+response.writeHead(404, {'Content-Type': 'text/html'});
+} else {
+//Page found
+// HTTP Status: 200 : OK
+// Content Type: text/plain
+response.writeHead(200, {'Content-Type': 'text/html'});
+// Write the content of the file to response body
+response.write(data.toString());
+}
+// Send the response body
+response.end();
+});
+}).listen(8081);
+// Console will print the message
+console.log('Server running at http://127.0.0.1:8081/');
+</code></pre>
+<p class="has-line-data" data-line-start="1153" data-line-end="1155">Next let’s create the following html file named index.htm in the same directory where you created server.js.<br>
+<strong>File: index.htm</strong></p>
+<pre><code class="has-line-data" data-line-start="1156" data-line-end="1165">&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Sample Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello World!
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="1165" data-line-end="1166">Now let us run the server.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="1167" data-line-end="1169">$ node server.js
+</code></pre>
+<p class="has-line-data" data-line-start="1169" data-line-end="1170">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="1171" data-line-end="1173">Server running at http://127.0.0.1:8081/
+</code></pre>
+<p class="has-line-data" data-line-start="1174" data-line-end="1175"><strong>Make a request to Node.js server</strong></p>
+<p class="has-line-data" data-line-start="1176" data-line-end="1177">Open <code>http://127.0.0.1:8081/index.htm</code> in any browser to see the following result.</p>
+<p class="has-line-data" data-line-start="1178" data-line-end="1179">Verify the Output at server end.</p>
+<pre><code class="has-line-data" data-line-start="1180" data-line-end="1183">Server running at http://127.0.0.1:8081/
+Request for /index.htm received.
+</code></pre>
+<p class="has-line-data" data-line-start="1184" data-line-end="1185"><strong>Creating Web client using Node</strong></p>
+<p class="has-line-data" data-line-start="1186" data-line-end="1188">A web client can be created using <strong>http</strong> module. Let’s check the following example.<br>
+Create a js file named client.js</p>
+<p class="has-line-data" data-line-start="1189" data-line-end="1190"><strong>File: client.js</strong></p>
+<pre><code class="has-line-data" data-line-start="1191" data-line-end="1214">var http = require('http');
+// Options to be used by request
+var options = {
+host: 'localhost',
+port: '8081',
+path: '/index.htm'
+};
+// Callback function is used to deal with response
+var callback = function(response) {
+// Continuously update stream with data
+var body = '';
+response.on('data', function(data) {
+body += data;
+});
+response.on('end', function() {
+// Data received completely.
+console.log(body);
+});
+}
+// Make a request to the server
+var req = http.request(options, callback);
+req.end();
+</code></pre>
+<p class="has-line-data" data-line-start="1214" data-line-end="1215">Now run the client.js from a different command terminal other than server.js to see the result</p>
+<pre><code class="has-line-data" data-line-start="1216" data-line-end="1218">$ node client.js
+</code></pre>
+<p class="has-line-data" data-line-start="1218" data-line-end="1219">Verify the Output.</p>
+<pre><code class="has-line-data" data-line-start="1220" data-line-end="1229">&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Sample Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+Hello World!
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p class="has-line-data" data-line-start="1229" data-line-end="1230">Verify the Output at server end.</p>
+<pre><code class="has-line-data" data-line-start="1231" data-line-end="1234">Server running at http://127.0.0.1:8081/
+Request for /index.htm received.
+</code></pre>
+<p class="has-line-data" data-line-start="1236" data-line-end="1237"><strong>childprocess</strong></p>
+<p class="has-line-data" data-line-start="1238" data-line-end="1239"><code>https://nodejs.org/docs/latest-v15.x/api/child\_process.html#child\_process\_subprocess\_stdio</code></p>
+<p class="has-line-data" data-line-start="1240" data-line-end="1241"><strong>2 broad categories</strong></p>
+<p class="has-line-data" data-line-start="1242" data-line-end="1243"><strong>Asynchronous</strong></p>
+<p class="has-line-data" data-line-start="1244" data-line-end="1245"><strong>1. childprocess.spawn(command[, args][, options]) -</strong> spawns the child process asynchronously, without blocking the Node.js event loop. The child_process.spawn() method spawns a new process using the given command, with command-line arguments in args. If omitted, args defaults to an empty array.</p>
+<p class="has-line-data" data-line-start="1246" data-line-end="1247"><strong>2. childprocess.exec(command[, options][, callback]) -</strong> opens/spawns a shell by default and executes the given input command and buffers the output (stdout and stderr) generated by shell as callback. (suitable for windows os as the code cannot be executed without running inside command or shell. so cmd or shell has to be spawned and arguments are passed to get desired output)</p>
+<p class="has-line-data" data-line-start="1248" data-line-end="1249"><strong>3. childprocess.execFile(file[, args][, options][, callback]) -</strong> same as exec, but the diiference is that, it doesnot spawns/opens shell by default. Itis efficient for Unix/Linux, macos based platform, since it doesnot need to be executed inside the cmd/shell like windows requires. Instead the file is directly spawned as new process</p>
+<p class="has-line-data" data-line-start="1250" data-line-end="1251"><strong>4. childprocess.fork(modulePath[, args][, options]) -</strong> The child_process.fork() method is a special case of child_process.spawn() used specifically to spawn new Node.js processes. Like child_process.spawn(), a ChildProcess object is returned. The returned ChildProcess will have an additional communication channel built-in that allows messages to be passed back and forth between the parent and child. See subprocess.send() for details.</p>
+<p class="has-line-data" data-line-start="1252" data-line-end="1253">Keep in mind that spawned Node.js child processes are independent of the parent with exception of the IPC communication channel that is established between the two. Each process has its own memory, with their own V8 instances. Because of the additional resource allocations required, spawning a large number of child Node.js processes is not recommended.</p>
+<p class="has-line-data" data-line-start="1254" data-line-end="1255"><strong>Synchronous:</strong></p>
+<p class="has-line-data" data-line-start="1256" data-line-end="1257">These 3 methods are synchronous and will block the Node.js event loop, pausing execution of any additional code until the spawned process exits.</p>
+<p class="has-line-data" data-line-start="1258" data-line-end="1259">Blocking calls like these are mostly useful for simplifying general-purpose scripting tasks and for simplifying the loading/processing of application configuration at startup.</p>
+<ol>
+<li class="has-line-data" data-line-start="1260" data-line-end="1261">The child_process.spawnSync()</li>
+<li class="has-line-data" data-line-start="1261" data-line-end="1262">child_process.execSync()</li>
+<li class="has-line-data" data-line-start="1262" data-line-end="1264">child_process.execFileSync()</li>
+</ol>
+<p class="has-line-data" data-line-start="1264" data-line-end="1265">All these commands are generally identical to the async version of itself, with the exception that the method will not return until the child process has fully closed. When a timeout has been encountered and killSignal is sent, the method won’t return until the process has completely exited. If the child process intercepts and handles the SIGTERM signal and doesn’t exit, the parent process will wait until the child process has exited.</p>
+<p class="has-line-data" data-line-start="1266" data-line-end="1267"><strong>ChildProcess</strong></p>
+<p class="has-line-data" data-line-start="1268" data-line-end="1269">options &lt;Object&gt;</p>
+<ol>
+<li class="has-line-data" data-line-start="1270" data-line-end="1271">cwd &lt;string&gt; Current working directory of the child process.</li>
+<li class="has-line-data" data-line-start="1271" data-line-end="1272">env &lt;Object&gt; Environment key-value pairs. Default: process.env.</li>
+<li class="has-line-data" data-line-start="1272" data-line-end="1273">encoding &lt;string&gt; Default: ‘utf8’</li>
+<li class="has-line-data" data-line-start="1273" data-line-end="1274">timeout &lt;number&gt; Default: 0</li>
+<li class="has-line-data" data-line-start="1274" data-line-end="1275">maxBuffer &lt;number&gt; Largest amount of data in bytes allowed on stdout or stderr. If exceeded, the child process is terminated and any output is truncated. See caveat at maxBuffer and Unicode. Default: 1024 * 1024.</li>
+<li class="has-line-data" data-line-start="1275" data-line-end="1276">killSignal &lt;string&gt; | &lt;integer&gt; Default: ‘SIGTERM’</li>
+<li class="has-line-data" data-line-start="1276" data-line-end="1277">uid &lt;number&gt; Sets the user identity of the process (see setuid(2)).</li>
+<li class="has-line-data" data-line-start="1277" data-line-end="1278">gid &lt;number&gt; Sets the group identity of the process (see setgid(2)).</li>
+<li class="has-line-data" data-line-start="1278" data-line-end="1279">windowsHide &lt;boolean&gt; Hide the subprocess console window that would normally be created on Windows systems. Default: false.</li>
+<li class="has-line-data" data-line-start="1279" data-line-end="1281">signal &lt;AbortSignal&gt; allows aborting the child process using an AbortSignal.</li>
+</ol>
+<p class="has-line-data" data-line-start="1281" data-line-end="1283"><strong>callbacks:</strong><br>
+Called with the output when process terminates. (only for async version of exec and execFile)</p>
+<p class="has-line-data" data-line-start="1284" data-line-end="1287">1.error &lt;Error&gt;<br>
+2.stdout &lt;string&gt; | &lt;Buffer&gt;<br>
+3.stderr &lt;string&gt; | &lt;Buffer&gt;</p>
+<p class="has-line-data" data-line-start="1288" data-line-end="1289"><strong>Events emitted:</strong></p>
+<p class="has-line-data" data-line-start="1290" data-line-end="1291"><strong>1.close</strong></p>
+<p class="has-line-data" data-line-start="1292" data-line-end="1293">The ‘close’ event is emitted when the stdio streams of a child process have been closed</p>
+<p class="has-line-data" data-line-start="1294" data-line-end="1295"><strong>2.disconnect</strong></p>
+<p class="has-line-data" data-line-start="1296" data-line-end="1297">The ‘disconnect’ event is emitted after calling the subprocess.disconnect() method in parent process or process.disconnect() in child process. After disconnecting it is no longer possible to send or receive messages, and the subprocess.connected property is false.</p>
+<p class="has-line-data" data-line-start="1298" data-line-end="1299"><strong>3.error</strong></p>
+<p class="has-line-data" data-line-start="1300" data-line-end="1301">The ‘error’ event is emitted whenever:</p>
+<p class="has-line-data" data-line-start="1302" data-line-end="1305">1.The process could not be spawned, or<br>
+2.The process could not be killed, or<br>
+3.Sending a message to the child process failed.</p>
+<p class="has-line-data" data-line-start="1306" data-line-end="1307"><strong>4.exit</strong></p>
+<p class="has-line-data" data-line-start="1308" data-line-end="1309">The ‘exit’ event is emitted after the child process ends. If the process exited, code is the final exit code of the process, otherwise null. If the process terminated due to receipt of a signal, signal is the string name of the signal, otherwise null</p>
+<p class="has-line-data" data-line-start="1310" data-line-end="1311"><strong>5.message</strong></p>
+<p class="has-line-data" data-line-start="1312" data-line-end="1313">The ‘message’ event is triggered when a child process uses process.send() to send messages.</p>
+<p class="has-line-data" data-line-start="1314" data-line-end="1315"><strong>6.spawn</strong></p>
+<p class="has-line-data" data-line-start="1316" data-line-end="1317">The ‘spawn’ event is emitted once the child process has spawned successfully. If the child process does not spawn successfully, the ‘spawn’ event is not emitted and the ‘error’ event is emitted instead.</p>
+<p class="has-line-data" data-line-start="1320" data-line-end="1321"><strong>Node.js - RESTful API</strong></p>
+<p class="has-line-data" data-line-start="1322" data-line-end="1323"><strong>What is REST architecture?</strong></p>
+<p class="has-line-data" data-line-start="1324" data-line-end="1325">REST stands for REpresentational State Transfer. REST is web standards based architecture and uses HTTP Protocol. It revolves around resource where every component is a resource and a resource is accessed by a common interface using HTTP standard methods. A REST Server simply provides access to resources and REST client accesses and modifies the resources using HTTP protocol. Here each resource is identified by URIs/ global IDs. REST uses various representation to represent a resource like text, JSON, XML but JSON is the most popular one.</p>
+<p class="has-line-data" data-line-start="1326" data-line-end="1327"><strong>HTTP methods</strong></p>
+<p class="has-line-data" data-line-start="1328" data-line-end="1333">Following four HTTP methods are commonly used in REST based architecture.<br>
+1.<strong>GET</strong> - This is used to provide a read only access to a resource.<br>
+2.<strong>PUT</strong> - This is used to create a new resource.<br>
+3.<strong>DELETE</strong> - This is used to remove a resource.<br>
+4.<strong>POST</strong> - This is used to update a existing resource or create a new resource.</p>
+<p class="has-line-data" data-line-start="1334" data-line-end="1335"><strong>RESTful Web Services</strong></p>
+<p class="has-line-data" data-line-start="1336" data-line-end="1337">A web service is a collection of open protocols and standards used for exchanging data between applications or systems. Software applications written in various programming languages and running on various platforms can use web services to exchange data over computer networks like the Internet in a manner similar to inter-process communication on a single computer.</p>
+<p class="has-line-data" data-line-start="1338" data-line-end="1339">Web services based on REST Architecture are known as RESTful web services. A RESTful web service usually defines a URI, Uniform Resource Identifier a service, which provides resource representation such as JSON and set of HTTP Methods.</p>
+<p class="has-line-data" data-line-start="1340" data-line-end="1341"><strong>Creating RESTful for A Library</strong></p>
+<p class="has-line-data" data-line-start="1342" data-line-end="1343">Consider we have a JSON based database of users having the following users in a file</p>
+<p class="has-line-data" data-line-start="1344" data-line-end="1345"><strong>users.json</strong>:</p>
+<pre><code class="has-line-data" data-line-start="1346" data-line-end="1367">{
+&quot;user1&quot; : {
+&quot;name&quot; : &quot;mahesh&quot;,
+&quot;password&quot; : &quot;password1&quot;,
+&quot;profession&quot; : &quot;teacher&quot;,
+&quot;id&quot;: 1
+},
+&quot;user2&quot; : {
+&quot;name&quot; : &quot;suresh&quot;,
+&quot;password&quot; : &quot;password2&quot;,
+&quot;profession&quot; : &quot;librarian&quot;,
+&quot;id&quot;: 2
+},
+&quot;user3&quot; : {
+&quot;name&quot; : &quot;ramesh&quot;,
+&quot;password&quot; : &quot;password3&quot;,
+&quot;profession&quot; : &quot;clerk&quot;,
+&quot;id&quot;: 3
+}
+}
+</code></pre>
+<p class="has-line-data" data-line-start="1367" data-line-end="1368">Based on this information we are going to provide following RESTful APIs.</p>
+<table class="table table-striped table-bordered">
+<thead>
+<tr>
+<th style="text-align:left"><strong><a href="http://Sr.No">Sr.No</a>.</strong></th>
+<th style="text-align:left"><strong>URI</strong></th>
+<th style="text-align:left"><strong>HTTP Method</strong></th>
+<th style="text-align:left"><strong>POST body</strong></th>
+<th style="text-align:left"><strong>Result</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">listUsers</td>
+<td style="text-align:left">GET</td>
+<td style="text-align:left">empty</td>
+<td style="text-align:left">Show list of all the users.</td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">addUser</td>
+<td style="text-align:left">POST</td>
+<td style="text-align:left">JSON String</td>
+<td style="text-align:left">Add details of new user.</td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">deleteUser</td>
+<td style="text-align:left">DELETE</td>
+<td style="text-align:left">JSON String</td>
+<td style="text-align:left">Delete an existing user.</td>
+</tr>
+<tr>
+<td style="text-align:left">4</td>
+<td style="text-align:left">:id</td>
+<td style="text-align:left">GET</td>
+<td style="text-align:left">empty</td>
+<td style="text-align:left">Show details of a user.</td>
+</tr>
+</tbody>
+</table>
+<p class="has-line-data" data-line-start="1376" data-line-end="1378"><strong>List Users</strong><br>
+<strong>server.js</strong></p>
+<pre><code class="has-line-data" data-line-start="1379" data-line-end="1388">var express = require('express');
+var app = express();
+var fs = require(&quot;fs&quot;);
+app.get('/listUsers', function (req, res) {
+fs.readFile( \_\_dirname + &quot;/&quot; + &quot;users.json&quot;, 'utf8', function (err, data)
+console.log( data );
+d( d )
+Now try to access defined API using *URL: http://127.0.0.1:8081/listUsers* and *HTTP* 
+</code></pre>
+<p class="has-line-data" data-line-start="1388" data-line-end="1389"><strong>Method</strong></p>
+<p class="has-line-data" data-line-start="1390" data-line-end="1392"><em>GET</em> on local machine using any REST client. This should produce following result<br>
+You can change given IP address when you will put the solution in production environment.</p>
+<pre><code class="has-line-data" data-line-start="1393" data-line-end="1414">{
+&quot;user1&quot; : {
+&quot;name&quot; : &quot;mahesh&quot;,
+&quot;password&quot; : &quot;password1&quot;,
+&quot;profession&quot; : &quot;teacher&quot;,
+&quot;id&quot;: 1
+},
+&quot;user2&quot; : {
+&quot;name&quot; : &quot;suresh&quot;,
+&quot;password&quot; : &quot;password2&quot;,
+&quot;profession&quot; : &quot;librarian&quot;,
+&quot;id&quot;: 2
+},
+&quot;user3&quot; : {
+&quot;name&quot; : &quot;ramesh&quot;,
+&quot;password&quot; : &quot;password3&quot;,
+&quot;profession&quot; : &quot;clerk&quot;,
+&quot;id&quot;: 3
+}
+}
+</code></pre>
+<p class="has-line-data" data-line-start="1415" data-line-end="1416"><strong>Add User</strong></p>
+<p class="has-line-data" data-line-start="1417" data-line-end="1418">Following API will show you how to add new user in the list. Following is the detail of the new user</p>
+<pre><code class="has-line-data" data-line-start="1419" data-line-end="1436">user = {
+&quot;user4&quot; : {
+&quot;name&quot; : &quot;mohit&quot;,
+&quot;password&quot; : &quot;password4&quot;,
+&quot;profession&quot; : &quot;teacher&quot;,
+&quot;id&quot;: 4
+}
+}
+res.end( data );
+});
+})
+var server = app.listen(8081, function () {
+var host = server.address().address
+var port = server.address().port
+console.log(&quot;Example app listening at http://%s:%s&quot;, host, port)
+})
+</code></pre>
+<p class="has-line-data" data-line-start="1437" data-line-end="1438"><strong>Show Detail</strong></p>
+<p class="has-line-data" data-line-start="1439" data-line-end="1440">Now we will implement an API which will be called using user ID and it will display the detail of the corresponding user.</p>
+<p class="has-line-data" data-line-start="1441" data-line-end="1442"><strong><em>server.js</em></strong></p>
+<pre><code class="has-line-data" data-line-start="1443" data-line-end="1475">var express = require('express');
+var app = express();
+var fs = require(&quot;fs&quot;);
+var user = {
+&quot;user4&quot; : {
+&quot;name&quot; : &quot;mohit&quot;,
+&quot;password&quot; : &quot;password4&quot;,
+&quot;profession&quot; : &quot;teacher&quot;,
+&quot;id&quot;: 4
+}
+}
+app.post('/addUser', function (req, res) {
+// First read existing users.
+fs.readFile( \_\_dirname + &quot;/&quot; + &quot;users.json&quot;, 'utf8', function (err, data)
+data = JSON.parse( data );
+data[&quot;user4&quot;] = user[&quot;user4&quot;];
+console.log( data );
+res.end( JSON.stringify(data));
+});
+})
+var server = app.listen(8081, function () {
+var host = server.address().address
+var port = server.address().port
+console.log(&quot;Example app listening at http://%s:%s&quot;, host, port)
+})
+{
+&quot;user1&quot;:{&quot;name&quot;:&quot;mahesh&quot;,&quot;password&quot;:&quot;password1&quot;,&quot;profession&quot;:&quot;teacher&quot;,&quot;i
+&quot;user2&quot;:{&quot;name&quot;:&quot;suresh&quot;,&quot;password&quot;:&quot;password2&quot;,&quot;profession&quot;:&quot;librarian&quot;,
+&quot;user3&quot;:{&quot;name&quot;:&quot;ramesh&quot;,&quot;password&quot;:&quot;password3&quot;,&quot;profession&quot;:&quot;clerk&quot;,&quot;id&quot;
+&quot;user4&quot;:{&quot;name&quot;:&quot;mohit&quot;,&quot;password&quot;:&quot;password4&quot;,&quot;profession&quot;:&quot;teacher&quot;,&quot;id
+}
+</code></pre>
+<p class="has-line-data" data-line-start="1475" data-line-end="1476">Now try to access defined API using <em>URL: <a href="http://127.0.0.1:8081/2">http://127.0.0.1:8081/2</a></em> and <em>HTTP Method: GET</em> on local machine using any REST client. This should produce following result</p>
+<pre><code class="has-line-data" data-line-start="1477" data-line-end="1479">{&quot;name&quot;:&quot;suresh&quot;,&quot;password&quot;:&quot;password2&quot;,&quot;profession&quot;:&quot;librarian&quot;,&quot;id&quot;:2}
+</code></pre>
+<p class="has-line-data" data-line-start="1480" data-line-end="1481"><strong>Delete User</strong></p>
+<p class="has-line-data" data-line-start="1482" data-line-end="1483">This API is very similar to addUser API where we receive input data through req.body and then based on user ID we delete that user from the database.</p>
+<p class="has-line-data" data-line-start="1484" data-line-end="1485"><strong>server.js</strong></p>
+<pre><code class="has-line-data" data-line-start="1486" data-line-end="1517">var express = require('express');
+var app = express();
+var fs = require(&quot;fs&quot;);
+app.get('/:id', function (req, res) {
+// First read existing users.
+fs.readFile( \_\_dirname + &quot;/&quot; + &quot;users.json&quot;, 'utf8', function (err, data)
+var users = JSON.parse( data );
+var user = users[&quot;user&quot; + req.params.id]
+console.log( user );
+res.end( JSON.stringify(user));
+});
+})
+var server = app.listen(8081, function () {
+var host = server.address().address
+var port = server.address().port
+console.log(&quot;Example app listening at http://%s:%s&quot;, host, port)
+})
+var express = require('express');
+var app = express();
+var fs = require(&quot;fs&quot;);
+var id = 2;
+app.delete('/deleteUser', function (req, res) {
+// First read existing users.
+fs.readFile( \_\_dirname + &quot;/&quot; + &quot;users.json&quot;, 'utf8', function (err, data)
+data = JSON.parse( data );
+delete data[&quot;user&quot; + 2];
+console.log( data );
+res.end( JSON.stringify(data));
+});
+})
+</code></pre>
+<p class="has-line-data" data-line-start="1518" data-line-end="1520">Now try to access defined API using <em>URL: <a href="http://127.0.0.1:8081/deleteUser">http://127.0.0.1:8081/deleteUser</a></em> and <em>HTTP Method:<br>
+DELETE</em> on local machine using any REST client. This should produce following result:</p>
+<pre><code class="has-line-data" data-line-start="1521" data-line-end="1524">{&quot;user1&quot;:{&quot;name&quot;:&quot;mahesh&quot;,&quot;password&quot;:&quot;password1&quot;,&quot;profession&quot;:&quot;teacher&quot;,&quot;id
+&quot;user3&quot;:{&quot;name&quot;:&quot;ramesh&quot;,&quot;password&quot;:&quot;password3&quot;,&quot;profession&quot;:&quot;clerk&quot;,&quot;id&quot;:3
+</code></pre>
+</body></html>
