@@ -1266,7 +1266,7 @@ All these commands are generally identical to the async version of itself, with 
 
 **ChildProcess**
 
-**options <Object>**
+options <Object>
 
 1. cwd <string> Current working directory of the child process.
 2. env <Object> Environment key-value pairs. Default: process.env.
@@ -1280,44 +1280,41 @@ All these commands are generally identical to the async version of itself, with 
 10. signal <AbortSignal> allows aborting the child process using an AbortSignal.
 
 **callbacks:**
-
 Called with the output when process terminates. (only for async version of exec and execFile)
 
-1. error <Error>
-2. stdout <string> | <Buffer>
-3. stderr <string> | <Buffer>
+  1.error <Error>
+2.stdout <string> | <Buffer>
+3.stderr <string> | <Buffer>
 
 **Events emitted:**
 
-**1. close**
+**1.close**
 
 The 'close' event is emitted when the stdio streams of a child process have been closed
 
-**2. disconnect**
+**2.disconnect**
 
 The 'disconnect' event is emitted after calling the subprocess.disconnect() method in parent process or process.disconnect() in child process. After disconnecting it is no longer possible to send or receive messages, and the subprocess.connected property is false.
 
-**3. error**
+**3.error**
 
 The 'error' event is emitted whenever:
 
-1. The process could not be spawned, or
+  1.The process could not be spawned, or
+  2.The process could not be killed, or
+  3.Sending a message to the child process failed.
 
-2. The process could not be killed, or
-
-3. Sending a message to the child process failed.
-
-**4. exit**
+**4.exit**
 
 The 'exit' event is emitted after the child process ends. If the process exited, code is the final exit code of the process, otherwise null. If the process terminated due to receipt of a signal, signal is the string name of the signal, otherwise null
 
-**5. message**
+**5.message**
 
 The 'message' event is triggered when a child process uses process.send() to send messages.
 
-**6. spawn**
-
-`	`The 'spawn' event is emitted once the child process has spawned successfully. If the child process does not spawn successfully, the 'spawn' event is not emitted and the 'error' event is emitted instead.
+**6.spawn**
+  
+  The 'spawn' event is emitted once the child process has spawned successfully. If the child process does not spawn successfully, the 'spawn' event is not emitted and the 'error' event is emitted instead.
 
 
 
@@ -1330,10 +1327,10 @@ REST stands for REpresentational State Transfer. REST is web standards based arc
 **HTTP methods**
 
 Following four HTTP methods are commonly used in REST based architecture.
-1. **GET** - This is used to provide a read only access to a resource.
-2. **PUT** - This is used to create a new resource.
-3. **DELETE** - This is used to remove a resource.
-4. **POST** - This is used to update a existing resource or create a new resource.
+1.**GET** - This is used to provide a read only access to a resource.
+2.**PUT** - This is used to create a new resource.
+3.**DELETE** - This is used to remove a resource.
+4.**POST** - This is used to update a existing resource or create a new resource.
 
 **RESTful Web Services**
 
